@@ -1,0 +1,110 @@
+
+.header{
+  background-color: rgb(34, 36, 36);
+  color: white;
+  text-align: center;
+  padding: 5px;
+  position: fixed;
+  width: 100%;
+  top: 0%;
+}
+.nav{
+  display: flex;
+  gap: 35px;
+  list-style: none;
+  font-size: 18px;
+margin-left: 65%;
+}
+.nav  li a{
+  color: #d6d2d2;
+}
+.nav li a:hover{
+  color: #ffffff;
+}
+.content{
+  margin-top: 8%;
+}
+.Content{
+  font-size: 20px;
+ color: rgb(25, 28, 27);
+ padding: 10px;
+}
+.footer{
+  font-size: 20px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.footer{
+  background-color: rgb(34, 36, 36);
+padding: 40px 0px 40px 0px;
+margin-top: 5%;
+}
+.footerhead{
+  padding-top: 20px;
+  width: 5%;
+  border-bottom: 2px solid black;
+}
+.contenthead{
+  padding-top: 20px;
+    width: 6.6%;
+  border-bottom: 2px solid black;
+}
+.footertext{
+  display: flex;
+  justify-content: space-between;
+  width: 72%;
+  margin: auto;
+  list-style: none;
+}
+.footertext li a{
+  color: #eeeeee;
+}
+.footermain{
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: auto;
+  list-style: none;
+}
+.footermain ul{
+  list-style: none;
+}
+.About li a{
+  color: #c8c6c6;
+}
+.About li a:hover{
+  color: #eeeeee;
+}
+.About{
+  margin-left: -0%;
+
+}
+.Servide li a{
+  color: #c8c6c6;
+}
+.Servide li a:hover{
+  color: #eeeeee;
+}
+.Servide{
+  margin-left: -2%;
+}
+.contactus li a{
+  color: #c8c6c6;
+}
+.contactus li a:hover{
+  color: #eeeeee;
+}
+.contactus li{
+  margin-left: -40px;
+}
+.Socilal li a{
+  color: #c8c6c6;
+}
+.Socilal li a:hover{
+  color: #eeeeee;
+}
+.Socilal li{
+  margin-right: 25px;
+}
