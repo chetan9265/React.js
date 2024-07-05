@@ -1,0 +1,62 @@
+.Text{
+    padding-left: 35px;
+    padding-top: 40px;
+}
+.Text-P{
+    padding-top: 20px;
+    color: rgb(131, 129, 129);
+}
+.T-p{
+    color: rgb(131, 129, 129);
+}
+img{
+height: auto;
+width: auto;
+margin-left: 80px;
+margin-top: 30px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+a i{
+    padding-left: 20px;
+    font-size: 20px;
+    padding-top: 30px;
+    color: rgb(131, 129, 129);
+}
+.Main{
+    width: 80%;
+    margin: auto;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    margin-top: 7%;
+    margin-left: -20px;
+}
+.fb{
+    margin-top: -6px;
+    font-size: 20px;
+    color: rgb(131, 129, 129);
+}
+@media(min-width:380px)  and  (max-width:576px){
+.main-one{
+    flex-direction: column;
+}img{
+    height: auto;
+    width: auto;
+    margin-left: 30px;
+    margin-top: 30px;
+    }
+
+}
+@media(min-width:500px)  and  (max-width:770px){
+
+.Text{
+    padding-left: 10px;
+    padding-top: 40px;
+}
+
+}
