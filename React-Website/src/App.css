@@ -1,0 +1,4628 @@
+* {
+  margin: 0%;
+  padding: 0px;
+  scroll-behavior: smooth;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+
+.Navbar {
+  position: fixed;
+  width: 100%;
+
+  backdrop-filter: blur(20px);
+  z-index: 1234511111111;
+  height: 48px;
+}
+
+.Navbar .Nav h2 {
+  font-size: 13px;
+  font-family: 'SF pro Text', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  margin-bottom: 6px;
+}
+
+.Navbar a {
+  text-decoration: none;
+  color: rgb(0, 0, 0, .8);
+
+}
+
+.navbar-media {
+  opacity: 0;
+  display: none;
+}
+
+.Navbar a img {
+  margin-top: -16px;
+}
+
+.Nav-Container {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+  width: 79%;
+  margin: auto;
+}
+
+.Navs {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.Navs a i {
+  position: absolute;
+  top: 14px;
+  font-size: 15px;
+}
+
+a i {
+  font-size: 14px;
+  font-family: 'SF pro Text', Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+}
+
+.Section-home {
+  padding-top: 7px;
+}
+
+.Section-home p {
+  font-size: 14px;
+  color: rgb(0, 0, 0, .8);
+  text-align: center;
+  font-family: 'SF pro Text', Arial, Helvetica, sans-serif;
+  width: 100%;
+  font-weight: 400;
+}
+
+.Section-home p a i {
+  color: blue;
+}
+
+.Section-home p a {
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.Section-home p a:hover {
+  text-decoration: underline;
+}
+
+.Section-home .MacBook-section {
+  background-color: #f5f5f7;
+  text-align: center;
+  font-family: 'SF pro Text', Arial, Helvetica, sans-serif;
+  color: #1d1d1f;
+  overflow: hidden;
+  width: 100%;
+}
+
+.Section-home .MacBook-section .Head-Para {
+  font-size: 28px;
+  font-family: 'SF pro Text', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  margin-top: -7px;
+}
+
+.Section-home .MacBook-section .Head-Heading {
+  font-size: 56px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  padding-top: 40px;
+  font-weight: 600;
+  letter-spacing: -.005em;
+}
+
+.Section-home .MacBook-section .Head-btn .Mac-btn1 {
+  border-radius: 25px;
+  font-size: 17px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  padding: 8px 19px 8px 19px;
+  margin-left: -10px;
+}
+
+.Section-home .MacBook-section .Head-btn .Mac-btn2 {
+  border-radius: 25px;
+  font-size: 17px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  padding: 8px 21px 8px 21px;
+  margin-left: 20px;
+}
+
+.Section-home .MacBook-section {
+  z-index: 11111;
+  position: relative;
+  margin-top: 15px;
+}
+
+.Section-home .MacBook-section .macbook-image {
+  width: 2000px;
+  margin-top: 10px;
+  margin-top: -252px;
+  position: relative;
+  z-index: -11111111;
+  margin-left: 10%;
+  height: 628px;
+  padding-bottom: 30px;
+}
+
+.Section-home .MacBook-section .macbook-image img {
+  width: 3000px;
+  margin-left: -48.4%;
+  z-index: -1111;
+}
+
+a {
+  text-decoration: none;
+}
+
+.Section-home .Iphone-section {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: 'SF pro Text', Arial, Helvetica, sans-serif;
+  color: #1d1d1f;
+  overflow: hidden;
+  width: 100%;
+  color: #f5f5f7;
+  z-index: 11111;
+  position: relative;
+  margin-top: 15px;
+
+}
+
+.Section-home .Iphone-section .Head-Para {
+  font-size: 28px;
+  font-family: 'SF pro Text', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  margin-top: -7px;
+  color: #f5f5f7;
+}
+
+
+
+.Section-home .Iphone-section .Head-Heading {
+  font-size: 56px;
+  padding-top: 45px;
+  font-weight: 600;
+  letter-spacing: -.005em;
+  letter-spacing: -.005em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica" Arial, Helvetica, sans-serif,
+}
+
+.Section-home .Iphone-section .Head-btn .Mac-btn1 {
+  border-radius: 25px;
+  font-size: 17px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  padding: 8px 19px 8px 19px;
+  margin-left: -10px;
+}
+
+.border-mac-1{
+  padding-top: 10px;
+}
+.Section-home .Iphone-section .Head-btn .Mac-btn2 {
+  border-radius: 25px;
+  font-size: 17px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  padding: 8px 21px 8px 21px;
+  margin-left: 20px;
+}
+
+.Section-home .Iphone-section .Iphone-image {
+  width: 1850px;
+  margin-top: -195px;
+  position: relative;
+  height: 550px;
+  z-index: -11111111;
+
+  margin-left: 10%;
+  padding-bottom: 0px;
+}
+.large-img{
+  opacity: 1;
+  display: block;
+}
+.Media-img-2{
+  opacity: 0;
+  display: none;
+}
+.Section-home .Iphone-section .Iphone-image img {
+  width: 150%;
+  position: relative;
+  left: -47.6%;
+  height: 100%;
+  z-index: -1111;
+  opacity: 0;
+  display: none;
+}
+.Section-home .Iphone-section{
+  background: url("./assets/hero_iphone15pro__i70z9oz3hj2i_large_2x.jpg");
+  height: 580px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 240% 100%;
+}
+
+
+.Section-home .PROMOT-row-1 {
+  width: 660px;
+  overflow: hidden;
+  text-align: center;
+  height: 580px;
+  background: url("./assets/promo_underdogs__bevfo01zejgy_large.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 12px;
+}
+
+.Section-home .PROMOT-row-1 .promot-Movie .promot-movie-img,
+.PROMOT-row-3 .promot-watch .promot-watch-img {
+  position: relative;
+  width: 100%;
+}
+
+.Section-home .PROMOT-row-1 .promot-Movie .promot-movie-img img,
+.PROMOT-row-3 .promot-watch .promot-watch-img img {
+  margin-left: -295px;
+  z-index: -111;
+}
+
+.Section-home .PROMOT-row-1 .promot-Movie .promot-movie-text,
+.PROMOT-row-3 .promot-watch-text {
+  z-index: 111111;
+  position: absolute;
+  text-align: center;
+  top: 45px;
+  color: #f5f5f7;
+  width: 100%;
+  left: 0%;
+}
+
+.Section-home .PROMOT-row-1 .promot-Movie .promot-movie-text .Movie-Head {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+}
+
+.Section-home .PROMOT-row-1 .promot-Movie .promot-movie-text .Movie-Para {
+  font-size: 21px;
+  font-weight: 400;
+  letter-spacing: .011em;
+  color: #f5f5f7;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+}
+
+.Section-home .promot-Movie .promot-movie-img .Movie-btn .Promot-btn1 {
+  border-radius: 25px;
+  font-size: 14px;
+  background-color: #f5f5f7;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  padding: 7px 15px 7px 15px;
+  color: #1d1d1f;
+  margin-left: -10px;
+}
+
+.Section-home .promot-Movie .promot-movie-img .Movie-btn .Promot-btn2 {
+  border-radius: 25px;
+  font-size: 14px;
+  border: 1px solid #f5f5f7;
+  color: #f5f5f7;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  padding: 7px 15px 7px 15px;
+  margin-left: 20px;
+
+}
+
+.Section-home .promot-Movie .promot-movie-img .Movie-btn .Promot-btn2:hover {
+  background-color: #f5f5f7;
+  border: 1px solid #f5f5f7;
+  color: #1d1d1f;
+}
+
+.Section-home .promot-Movie .promot-movie-img .Movie-btn .Promot-btn1:hover {
+  background-color: #f1f1f2;
+}
+
+.Section-home .promot-Movie .promot-movie-img .Movie-btn {
+  margin-top: -3px;
+}
+
+.Section-home .PROMOTE-SEC {
+  display: flex;
+}
+
+.Section-home .PROMOT-row-2 {
+  width: 660px;
+  overflow: hidden;
+  text-align: center;
+  height: 580px;
+  background: url("./assets/promo_mac_does_that__ckozfqcs65w2_large_2x.jpg");
+  margin: 12px 12px 0px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1200px 600px;
+  position: relative;
+}
+
+
+.Section-home .PROMOT-row-2 .promot-Mac .promot-Mac-Img,
+.PROMOT-row-4 .promot-Mac .promot-Mac-Img {
+  width: 100%;
+  position: relative;
+  z-index: -11111;
+}
+
+.Section-home .PROMOT-row-2 .promot-text,
+.PROMOT-row-4 .promot-text {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  top: 48px;
+  left: 0%;
+  z-index: 111111;
+}
+
+.Section-home .PROMOT-row-2 .promot-text .Promot-Head {
+  font-size: 40px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 600;
+}
+
+.Section-home .PROMOT-row-2 .promot-text .btn {
+  font-size: 14px;
+  border-radius: 25px;
+  padding: 6px 16px 6px 16px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+
+
+.Section-home .PROMOT-row-2 .promot-Mac img,
+.PROMOT-row-4 .promot-Iphone img {
+  width: 1260px;
+  margin-left: -300px;
+  z-index: -11111;
+  height: 580px;
+}
+
+
+
+.Section-home .PROMOT-row-3 .promot-watch .promot-watch-img {
+  position: relative;
+  width: 100%;
+}
+
+.Section-home .PROMOT-row-3 .promot-watch .promot-watch-img .Haedline {
+  position: relative;
+  left: -38px;
+  width: 200%;
+  height: 580px;
+  z-index: -111;
+}
+
+.Section-home .PROMOT-row-3 .promot-watch .Watch-Headline img {
+  width: 138px;
+  margin: 15px auto;
+}
+
+
+.Section-home .PROMOT-row-3 {
+  width: 657px;
+  overflow: hidden;
+  text-align: center;
+  height: 580px;
+  margin: 0px 12px 12px 12px;
+  background: url("./assets/promo_apple_watch_series_9_order__b3u85rm9zf6u_large_2x.jpg");
+  margin: 1px 12px 0px 12px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200% 100%;
+  position: relative;
+}
+
+.Section-home .PROMOT-row-3 .promot-watch .promot-watch-img .promot-watch-text .Watch-Para {
+  font-size: 21px;
+  font-weight: 400;
+  letter-spacing: .011em;
+  color: #f5f5f7;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+
+.Section-home .promot-watch .promot-watch-img .watch-btn .Promot-btn1 {
+  border-radius: 25px;
+  font-size: 14px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  padding: 7px 15px 7px 15px;
+  color: #f5f5f7;
+  margin-left: 0px;
+}
+
+.Section-home .promot-watch .promot-watch-img .watch-btn .Promot-btn2 {
+  border-radius: 25px;
+  font-size: 14px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  padding: 7px 18px 7px 18px;
+  margin-left: 13px;
+}
+
+.Section-home .promot-watch .promot-watch-img .watch-btn .Promot-btn2 :hover {
+  color: #f5f5f7;
+}
+
+.Section-home .PROMOT-row-4 {
+  width: 657px;
+  overflow: hidden;
+  text-align: center;
+  height: 580px;
+  background: url("./assets/promo_ai__couihqxznyvm_large_2x.jpg");
+  margin: 0px 12px 0px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 220% 100%;
+  position: relative;
+}
+
+.Section-home .promot-Iphone .promot-text .Iphone-para-uper {
+  font-size: 21px;
+  color: #1d1d1f;
+  font-weight: 400;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+}
+
+.Section-home .promot-Iphone .promot-text .Iphone-para-Down {
+  font-size: 17px;
+  color: #6e6e73;
+  font-weight: 400;
+  margin-top: -9px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.Section-home .promot-Iphone .promot-text .Iphone-btn .Promot-btn1 {
+  border-radius: 25px;
+  font-size: 14px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  padding: 7px 15px 7px 15px;
+  color: #f5f5f7;
+  margin-left: -0px;
+}
+
+.Section-home .promot-Iphone .promot-text .Iphone-btn .Promot-btn2 {
+  border-radius: 25px;
+  font-size: 14px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  padding: 7px 18px 7px 18px;
+  margin-left: 15px;
+}
+
+.Section-home .PROMOT-row-5{
+  width: 657px;
+  overflow: hidden;
+  text-align: center;
+  height: 580px;
+  background: url("./assets/PROMOTE-MACBOOK.jpg");
+  margin: 12px 12px 12px 12px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 220% 100%;
+  position: relative;
+}
+.Section-home .PROMOT-row-6 {
+  width: 657px;
+  overflow: hidden;
+  text-align: center;
+  height: 580px;
+  margin: 0px 12px 12px 12px;
+  position: relative;
+}
+
+.Section-home .PROMOT-row-5 .promot-MAC .promot-MAC-img,
+.PROMOT-row-6 .promot-Phone .promot-Phone-img {
+  position: relative;
+  width: 100%;
+}
+
+.Section-home .PROMOT-row-5 .promot-MAC .MAC-Headline img {
+  width: 138px;
+  margin: 15px auto;
+}
+
+.Section-home .PROMOT-row-5 .promot-MAC .promot-MAC-img .Haedline {
+  position: relative;
+  left: -38px;
+  width: 200%;
+  height: 580px;
+  z-index: -111;
+}
+
+.Section-home .PROMOT-row-6 .promot-Phone .promot-Phone-img .Haedline {
+  position: relative;
+  left: -38px;
+  width: 200%;
+  height: 580px;
+  z-index: -111;
+}
+
+.Section-home .PROMOT-row-5 .promot-MAC-text {
+  z-index: 111111;
+  position: absolute;
+  text-align: center;
+  top: 45px;
+  color: #f5f5f7;
+  width: 100%;
+  left: 0%;
+}
+
+.Section-home .PROMOT-row-5 .promot-MAC .promot-MAC-img .Haedline {
+  position: relative;
+  left: -330px;
+  width: 200%;
+  height: 580px;
+  z-index: -111;
+}
+
+
+
+.Section-home .PROMOT-row-5 .promot-MAC .promot-MAC-img .promot-MAC-text .MAC-Para {
+  font-size: 21px;
+  font-weight: 400;
+  letter-spacing: .011em;
+  color: #1d1d1f;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.Section-home .PROMOT-row-5 .promot-MAC .MAC-btn .Promot-btn2 {
+  border-radius: 25px;
+  font-size: 14px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  padding: 7px 18px 7px 18px;
+  margin-left: 15px;
+}
+
+.Section-home .PROMOT-row-5 .promot-MAC .MAC-btn .Promot-btn1 {
+  border-radius: 25px;
+  font-size: 14px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  padding: 7px 15px 7px 15px;
+  margin-left: -3px;
+}
+
+.Section-home .PROMOT-row-5 .promot-MAC .MAC-btn {
+  margin-top: -5PX;
+}
+
+
+.Section-home .PROMOT-row-6 .promot-Phone .promot-Phone-img .Haedline {
+  position: relative;
+  left: -310px;
+  width: 200%;
+  height: 580px;
+  z-index: -111;
+}
+
+.Section-home .PROMOT-row-6 .promot-Phone-text {
+  z-index: 111111;
+  position: absolute;
+  text-align: center;
+  top: 45px;
+  color: #f5f5f7;
+  width: 100%;
+  left: 0%;
+}
+
+.Section-home .PROMOT-row-6 .promot-Phone .Phone-Headline img {
+  width: 154px;
+  margin: 14px auto;
+}
+
+.Section-home .PROMOT-row-6 {
+  width: 657px;
+  overflow: hidden;
+  text-align: center;
+  height: 580px;
+  background: url("./assets/promo_iphone_tradein__bugw15ka691e_large_2x.jpg");
+  margin: 12px 12px 0px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200% 100%;
+  position: relative;
+}
+
+.Section-home .PROMOT-row-6 .promot-Phone .promot-Phone-img .promot-Phone-text .Phone-Para {
+  font-size: 21px;
+  font-weight: 400;
+  letter-spacing: .011em;
+  color: #1d1d1f;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.Section-home .PROMOT-row-6 .promot-Phone .Phone-btn .Promot-btn1 {
+  border-radius: 25px;
+  font-size: 14px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  padding: 7px 15px 6px 15px;
+}
+
+
+
+.carousel-indicators {
+  margin-top: 150px;
+  position: absolute;
+  top: 100%;
+
+}
+
+.carousel-control-prev {
+  opacity: 0;
+  display: none;
+}
+
+.carousel-control-next {
+  opacity: 0;
+  display: none;
+}
+
+.Carosel img {
+  width: 980px;
+  height: 453px;
+  /* margin-left: 160px; */
+}
+
+
+.Slider-sect .swiper-button-prev,
+.Slider-sect .swiper-button-next {
+  display: none;
+
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* background: #fff; */
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide div .Slider {
+  width: 900px;
+  height: 568px;
+}
+
+.Activeimg {
+  opacity: 0.3;
+}
+
+.active-enable-text {
+  color: #1a1a1a;
+  position: absolute;
+  z-index: 1111;
+  color: #FFFFFF;
+
+  top: 82.9%;
+
+  left: 7%;
+
+}
+
+.active-enable-text p {
+  font-size: 20px;
+  margin-left: 20px;
+  color: #fff;
+  font-weight: 400;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+
+  display: inline;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.active-enable-text button {
+  border-radius: 25px;
+  background-color: #F5F5F7;
+  outline: none;
+  border: transparent;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 9px 20px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.Slider-sect {
+  margin-bottom: 40px;
+}
+
+.Footer-section {
+  background-color: #F5F5F7;
+}
+
+.Footer-section .Footer-section-para {
+  padding-top: 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+}
+
+.Footer-section .Footer-section-para p {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.56);
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  text-align: left;
+}
+
+.Footer-section .Footer-section-para p a {
+  text-decoration: underline;
+  font-size: 12px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  color: rgba(0, 0, 0, 0.72);
+}
+
+.Footer-section-Link .Footer-link {
+  display: flex;
+  flex-direction: column;
+}
+
+.Footer-section-Link {
+  display: flex;
+  width: 92%;
+  margin: left;
+  padding-top: 20px;
+  justify-content: space-between;
+
+}
+
+.Footer-section-Link a {
+  font-size: 12px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  padding-top: 8px;
+  margin-left: -0px;
+  color: rgba(0, 0, 0, 0.72);
+
+}
+
+.Footer-section-Link a:hover {
+  text-decoration: underline;
+}
+
+.Footer-section1 {
+  width: 72.8%;
+  margin: auto;
+}
+
+.Footer-link .Footer-link-Para {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.88);
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: -0px;
+  /* margin-left: -2px; */
+  text-align: left;
+
+}
+
+.Footer-Last-Para .Footer-Para-Last {
+  text-align: left;
+  padding: 40px 0px 20px 0px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.56);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+  font-size: 12px;
+}
+
+.Footer-Last-Para .Footer-Para-Last a {
+  font-size: 12px;
+  color: #0066CC;
+  text-decoration: underline;
+}
+
+.Footer-Para-lasts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Footer-Para-lasts .Footer-Links-Last {
+  display: flex;
+  width: 80%;
+  align-items: center;
+}
+.Section-home .P-footer{
+  text-align: left;
+  width: 100%;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.56);
+  width: 40%;
+}
+
+.Footer-Para-lasts .Footer-Links-Last .Last-links {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 10px;
+}
+
+.Footer-Para-lasts .Footer-Links-Last .Last-links a {
+  height: 20px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.72);
+  margin: -14px 6px 0px 6px;
+  position: relative;
+}
+
+.Footer-Para-lasts .Footer-Links-Last .Last-links .A-1::after {
+
+  content: "";
+  display: block;
+  width: 1px;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.48);
+  position: absolute;
+  top: 4px;
+  left: 85px;
+}
+
+.Footer-Para-lasts .Footer-Links-Last .Last-links .A-2::after {
+
+  content: "";
+  display: block;
+  width: 1px;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.48);
+  position: absolute;
+  top: 4px;
+  left: 81px;
+}
+.P-Footer{
+  text-align: left;
+  width: 42%;
+  font-size: 12px;
+  margin-top: 2px;
+  color: rgba(0, 0, 0, 0.56);
+}
+.Footer-Para-lasts .Footer-Links-Last .Last-links .A-3::after {
+
+  content: "";
+  display: block;
+  width: 1px;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.48);
+  position: absolute;
+  top: 4px;
+  left: 75px;
+}
+
+.Footer-Para-lasts .Footer-Links-Last .Last-links .A-4::after {
+
+  content: "";
+  display: block;
+  width: 1px;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.48);
+  position: absolute;
+  top: 4px;
+  left: 41px;
+}
+
+.Footer-Para-lasts .Footer-Links-Last .Last-links .A-1::after {
+
+  content: "";
+  display: block;
+  width: 1px;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.48);
+  position: absolute;
+  top: 4px;
+  left: 85px;
+}
+
+.COPY-last {
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: left;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.56);
+
+}
+
+
+
+/* Store Page 
+
+
+
+
+*/
+.Store-sect .store-section-1 .Banner {
+  padding-top: 64px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.Store-sect .Store-Section-Main-body {
+  background-color: #f5f5f7;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main {
+  width: 80%;
+  margin: auto;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-2 .Store-Section-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-SECT-1-Head {
+  color: #6e6e73;
+  font-size: 48px;
+  font-weight: 500;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-2 .Store-Section-text .Icon-Logos .I-1 {
+  display: flex;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-2 .Store-Section-text .Icon-Logos .I-1 .I-1-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-2 .Store-Section-text .Icon-Logos .I-1 .I-1-img img {
+  margin: 0px 9px 0px 0px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-2 .Store-Section-text .Icon-Logos .I-1 .I-1-text p {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-2 .Store-Section-text .Icon-Logos .I-1 .I-1-text a {
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: -17px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-2 .Store-Section-text .Icon-Logos .I-1 .I-1-text a i {
+  color: #06c;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-2 .Store-Section-text .Icon-Logos .I-2 {
+  display: flex;
+  margin: 15px 0px -50px 0px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-2 .Store-Section-text .Icon-Logos .I-2 .I-2-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-2 .Store-Section-text .Icon-Logos .I-2 .I-2-img img {
+  margin: 0px 11.5px 0px 5px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-2 .Store-Section-text .Icon-Logos .I-2 .I-2-text p {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-2 .Store-Section-text .Icon-Logos .I-2 .I-2-text a {
+  font-size: 15px;
+  font-weight: 300;
+  position: relative;
+  margin-top: -16px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-2 .Store-Section-text .Icon-Logos .I-2 .I-2-text a i {
+  color: #06c;
+  position: absolute;
+  top: 3px;
+  right: -8px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-2 .Store-Section-text .Icon-Logos {
+  margin-top: -50px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-3 {
+  padding-bottom: 70px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-3 .swiper .swiper-wrapper .swiper-slide .Sliderimg img {
+  width: 120px;
+  height: 78px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-3 .swiper .swiper-wrapper .swiper-slide .Sliderimg h3 {
+  font-size: 14px;
+  color: #1d1d1f;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  padding-top: 20px;
+
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-3 .swiper .swiper-wrapper .swiper-slide {
+  height: 136px;
+  background-color: transparent;
+  width: 148px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-4 .Store-section-Text h2 {
+  font-size: 28px;
+  color: #6e6e73;
+  font-weight: 540;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-4 .Store-section-Text h2 span {
+  color: #1d1d1f;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-4 .swiper-pagination {
+  opacity: 0;
+  display: none;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-4 .Store-Section-Content .SwiperSlide {
+  background-color: transparent;
+  height: 500PX;
+  position: relative;
+  border-radius: 25px;
+  width: 500PX;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-4 .Store-Section-Content .Slider-Phone {
+  height: 500PX;
+  position: relative;
+  width: 400PX;
+  box-shadow: 2px 4px 12px #00000014;
+  margin-top: 20px;
+  margin-left: 9px;
+  margin-bottom: 0px;
+  border-radius: 19px;
+  transition: all ease-in 0.2s;
+  cursor: pointer;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-4 .Store-Section-Content .Slider-Phone:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transform: translate3D(0, -1px, 0) scale(1.01);
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-4 .Store-Section-Content .Slider-Phone img {
+
+  border-radius: 19px;
+  height: 500px;
+  width: 100%;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-4 .Store-Section-Content .Slider-Phone .text {
+  text-align: left;
+  padding: 0px 0px 0px 35px;
+  position: absolute;
+  top: 30px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-4 .Store-Section-Content .Slider-Phone .text .Head-Para {
+  font-size: 12px;
+  color: #f5f5f7;
+  font-weight: 500;
+  margin-bottom: 4px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-4 .Store-Section-Content .Slider-Phone .text h2 a {
+  font-size: 28px;
+  color: #f5f5f7;
+  margin-top: -10px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-4 .Store-Section-Content .Slider-Phone .text .Last-Para {
+  font-size: 17px;
+  margin-top: -1px;
+  color: #f5f5f7;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-4 .Store-Section-Content .Slider-Phone .text .Head-Para-W {
+  font-size: 12px;
+  color: #b64400;
+  font-weight: 500;
+  margin-bottom: 4px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-4 .Store-Section-Content .Slider-Phone .text .Head-link a {
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  color: #1d1d1f;
+  font-weight: 600;
+  margin-top: -10px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-4 .Store-Section-Content .Slider-Phone .text .Last-Para-W {
+  font-size: 17px;
+  margin-top: -1px;
+  color: #1d1d1f;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-4 .Store-Section-Content .Slider-Phone .text .Head-Para-G {
+  font-size: 12px;
+  color: #6e6e73;
+  font-weight: 500;
+  margin-bottom: 4px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+
+.swiper-button-prev {
+  background-color: #d2d2d7a3;
+  padding: 30px 30px 30px 30px;
+  border-radius: 50px;
+  color: #0000008f !important;
+  fill: black !important;
+  stroke: black !important;
+  --sk-paddlenav-background-hover:
+}
+
+.swiper-button-next {
+  background-color: #d2d2d7a3;
+  padding: 30px 30px 30px 30px;
+  margin-top: -100px;
+  border-radius: 50px;
+  color: #0000008f !important;
+  fill: black !important;
+  stroke: black !important;
+}
+
+.swiper-button-prev:hover {
+  background-color: hsla(240, 7%, 88%, .698);
+}
+
+.swiper-button-next:hover {
+  background-color: hsla(240, 7%, 88%, .698);
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .Help-section-Text h2 {
+  font-size: 28px;
+  padding-top: 80px;
+  padding-bottom: 7px;
+  font-weight: 500;
+  color: #6e6e73;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .Help-section-Text span {
+  font-size: 28px;
+  padding-top: 80px;
+  font-weight: 540;
+  color: #1d1d1f;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .Help-Section-Content .Slider-Help-1 {
+  width: 490px;
+  height: 500px;
+  position: relative;
+  box-shadow: 2px 4px 12px #00000014;
+  margin-left: 9px;
+  position: relative;
+  top: 20px;
+  margin-bottom: 40px;
+  border-radius: 19px;
+  transition: all ease-in 0.2s;
+  cursor: pointer;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .Help-Section-Content .Slider-Help-1 img {
+  width: 490px;
+  height: 500px;
+  box-shadow: 2px 4px 12px #00000014;
+  border-radius: 19px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .Help-Section-Content .Slider-Help-1:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transform: translate3D(0, -1px, 0) scale(1.01);
+
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .Help-Section-Content .Slider-Help-1 .text {
+  text-align: left;
+  padding: 0px 0px 0px 35px;
+  position: absolute;
+  top: 30px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .Help-Section-Content .Slider-Help-1 .text .Head-Para {
+  font-size: 12px;
+  font-weight: 500;
+  color: #6e6e73;
+  margin-bottom: 4px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .Help-Section-Content .Slider-Help-1 .text h2 a {
+  font-size: 28px;
+  font-weight: 500;
+  color: #1d1d1f;
+  margin-top: -10px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .Help-Section-Content .Slider-Help-2 {
+  width: 400px;
+  height: 500px;
+  position: relative;
+  box-shadow: 2px 4px 12px #00000014;
+  margin-left: 9px;
+  position: relative;
+  top: 20px;
+  margin-bottom: 40px;
+  border-radius: 19px;
+  transition: all ease-in 0.2s;
+  cursor: pointer;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .Help-Section-Content .Slider-Help-2 img {
+  width: 400px;
+  height: 500px;
+  box-shadow: 2px 4px 12px #00000014;
+  border-radius: 19px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .Help-Section-Content .Slider-Help-2:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transform: translate3D(0, -1px, 0) scale(1.01);
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .Help-Section-Content .Slider-Help-2 .text {
+  text-align: left;
+  padding: 0px 0px 0px 35px;
+  position: absolute;
+  top: 30px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .Help-Section-Content .Slider-Help-2 .text .Head-Para {
+  font-size: 12px;
+  font-weight: 500;
+  color: #6e6e73;
+  margin-bottom: 4px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .Help-Section-Content .Slider-Help-2 .text h2 a {
+  font-size: 28px;
+  font-weight: 500;
+  color: #FFFFFF;
+  margin-top: -10px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .Help-Section-Content .Slider-Help-2 .text h2 a span {
+  font-size: .6em;
+  position: relative;
+  top: -.5em;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .Help-Section-Content .Slider-Help-3 {
+  width: 490px;
+  height: 500px;
+  position: relative;
+  box-shadow: 2px 4px 12px #00000014;
+  margin-left: -81px;
+  position: relative;
+  top: 20px;
+  margin-bottom: 40px;
+  border-radius: 19px;
+  transition: all ease-in 0.2s;
+  cursor: pointer;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .Help-Section-Content .Slider-Help-3 img {
+  width: 490px;
+  height: 500px;
+  box-shadow: 2px 4px 12px #00000014;
+  border-radius: 19px;
+
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .Help-Section-Content .Slider-Help-3:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transform: translate3D(0, -1px, 0) scale(1.01);
+
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .Help-Section-Content .Slider-Help-3 .text {
+  text-align: left;
+  padding: 0px 0px 0px 35px;
+  position: absolute;
+  top: 30px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .Help-Section-Content .Slider-Help-3 .text .Head-Para {
+  font-size: 12px;
+  font-weight: 500;
+  color: #6e6e73;
+  margin-bottom: 4px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .Help-Section-Content .Slider-Help-3 .text h2 a {
+  font-size: 28px;
+  font-weight: 500;
+  color: #1d1d1f;
+  margin-top: -10px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .Help-Section-Content .Slider-Help-4 {
+  width: 490px;
+  height: 500px;
+  position: relative;
+  box-shadow: 2px 4px 12px #00000014;
+  margin-left: -81px;
+  position: relative;
+  top: 20px;
+  margin-bottom: 40px;
+  border-radius: 19px;
+  transition: all ease-in 0.2s;
+  cursor: pointer;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .Help-Section-Content .Slider-Help-4 img {
+  width: 490px;
+  height: 500px;
+  box-shadow: 2px 4px 12px #00000014;
+  border-radius: 19px;
+
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .Help-Section-Content .Slider-Help-4:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transform: translate3D(0, -1px, 0) scale(1.01);
+
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .Help-Section-Content .Slider-Help-4 .text {
+  text-align: left;
+  padding: 0px 0px 0px 35px;
+  position: absolute;
+  top: 30px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .Help-Section-Content .Slider-Help-4 .text .Head-Para {
+  font-size: 12px;
+  font-weight: 500;
+  color: #6e6e73;
+  margin-bottom: 4px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .Help-Section-Content .Slider-Help-4 .text .Last-Para {
+  font-size: 17px;
+  font-weight: 400;
+  color: #1d1d1f;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .Help-Section-Content .Slider-Help-4 .text h2 a {
+  font-size: 28px;
+  font-weight: 500;
+  color: #1d1d1f;
+  margin-top: -10px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .Help-Section-Content .Slider-Help-5 .text h2 a {
+  font-size: 28px;
+  font-weight: 500;
+  color: #1d1d1f;
+  margin-top: -10px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .Help-Section-Content .Slider-Help-5 {
+  width: 490px;
+  height: 500px;
+  position: relative;
+  box-shadow: 2px 4px 12px #00000014;
+  margin-left: -81px;
+  position: relative;
+  top: 20px;
+  margin-bottom: 40px;
+  background-color: none;
+  border-radius: 19px;
+  transition: all ease-in 0.2s;
+  cursor: pointer;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .Help-Section-Content .Slider-Help-5 img {
+  width: 490px;
+  height: 500px;
+  box-shadow: 2px 4px 12px #00000014;
+  border-radius: 19px;
+
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .Help-Section-Content .Slider-Help-5:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transform: translate3D(0, -1px, 0) scale(1.01);
+
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .Help-Section-Content .Slider-Help-5 .text {
+  text-align: left;
+  padding: 0px 0px 0px 35px;
+  position: absolute;
+  top: 30px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .Help-Section-Content .Slider-Help-5 .text .Head-Para {
+  font-size: 12px;
+  font-weight: 500;
+  color: #6e6e73;
+  margin-bottom: 4px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .Help-Section-Content .Slider-Help-5 .Apple-Help {
+  height: 96px;
+  width: 100%;
+  background-color: #fff;
+  position: relative;
+  top: -96px;
+  border-radius: 0px 0px 18px 18px;
+  padding: 20px 20px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .Help-Section-Content .Slider-Help-5 .Apple-Help span {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  position: absolute;
+  justify-content: space-between;
+  text-align: left;
+  font-size: 14px;
+  color: #1d1d1f;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .Help-Section-Content .Slider-Help-5 .Apple-Help span p {
+  background-color: #e8e8ed;
+  padding: 1px 8px 0px 8px;
+  right: -80px;
+  top: 1px;
+  border-radius: 99px;
+  position: absolute;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .Help-Section-Content .Slider-Help-5 .Apple-Help span p i {
+  font-size: 24px;
+  color: #635b61;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .swiper-button-prev {
+  margin-top: -30px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-5 .swiper-button-next {
+  margin-top: -30px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-6 .Apple-section-Text h2 {
+  font-size: 28px;
+  padding-top: 55px;
+  padding-bottom: 7px;
+  font-weight: 500;
+  color: #6e6e73;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-6 .Apple-section-Text span {
+  font-size: 28px;
+  /* padding-top: 50px; */
+  padding-bottom: 10px;
+  font-weight: 500;
+  color: #1d1d1f;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-6 .Apple-Section-Content .Slider-Apple-1 {
+  width: 313px;
+  height: 240px;
+  background-color: #fff;
+  box-shadow: 2px 4px 12px #00000014;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  padding: 20px 20px 1px 33px;
+  text-align: left;
+  margin-left: 30px;
+  border-radius: 20px;
+  transition: all ease-in 0.2s;
+  cursor: pointer;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-6 .Apple-Section-Content .Slider-Apple-1:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transform: translate3D(0, -1px, 0) scale(1.01);
+
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-6 .Apple-Section-Content .Slider-Apple-1 .Slider-Apple {
+  height: 41px;
+  text-align: center;
+  width: 41px;
+  border-radius: 8px;
+  border: 2px solid #007aff;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-6 .Apple-Section-Content .Slider-Apple-1 .Slider-Apple img {
+  height: 26px;
+  width: 26px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-6 .Apple-Section-Content .Slider-Apple-1 h2 {
+  line-height: 30px;
+  padding-top: 8px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-6 .Apple-Section-Content .Slider-Apple-1 h2 a {
+  font-size: 24px;
+  line-height: 1px;
+  letter-spacing: .009em;
+  color: #1d1d1f;
+  font-weight: 540;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-6 .Apple-Section-Content .Slider-Apple-1 h2 a span {
+  font-size: 24px;
+  color: #007aff;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-6 .Apple-Section-Content .Slider-Apple-2 {
+  width: 313px;
+  height: 240px;
+  background-color: #fff;
+  box-shadow: 2px 4px 12px #00000014;
+  padding: 12px 20px 1px 33px;
+  margin-top: 20px;
+  cursor: pointer;
+  padding: 20px 20px 1px 33px;
+  text-align: left;
+  border-radius: 20px;
+
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-6 .Apple-Section-Content .Slider-Apple-2:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transform: translate3D(0, -1px, 0) scale(1.01);
+
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-6 .Apple-Section-Content .Slider-Apple-2 h2 a {
+  font-size: 24px;
+  line-height: 1px;
+  letter-spacing: .009em;
+  font-weight: 540;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-text-fill-color: transparent;
+  color: red;
+  background-clip: Text;
+  background-image: linear-gradient(to right, #f8ab5e 0, #f36961 20%, #a176c8 40%, #759beb 60%, #65beb3 80%, #70db96 100%);
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-6 .Apple-Section-Content .Slider-Apple-2 i {
+  font-size: 34px;
+  -webkit-text-fill-color: transparent;
+  color: red;
+  background-clip: Text;
+  background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-6 .Apple-Section-Content .Slider-Apple-3,
+.Slider-Apple-4 {
+  width: 313px;
+  height: 240px;
+  background-color: #fff;
+  margin-top: 20px;
+  box-shadow: 2px 4px 12px #00000014;
+  padding: 12px 20px 1px 33px;
+  margin-left: -28px;
+  text-align: left;
+  border-radius: 20px
+}
+.apple-4{
+  margin-left:-80px ;
+}
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-6 .Apple-Section-Content .Slider-Apple-4 {
+  margin-left: -55px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-6 .Apple-Section-Content .Slider-Apple-3:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transform: translate3D(0, -1px, 0) scale(1.01);
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-6 .Apple-Section-Content .Slider-Apple-4:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transform: translate3D(0, -1px, 0) scale(1.01);
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-6 .Apple-Section-Content .Slider-Apple-3 i {
+  text-align: left;
+  border-radius: 20px;
+  font-size: 34px;
+  color: #ac39ff;
+
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-6 .Apple-Section-Content .Slider-Apple-3 h2 a {
+  font-size: 24px;
+  line-height: 1px;
+  letter-spacing: .009em;
+  font-weight: 540;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #ac39ff;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-6 .Apple-Section-Content .Slider-Apple-3 h2 a span {
+  color: #1d1d1f;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-6 .Apple-Section-Content .Slider-Apple-3 h2 {
+  line-height: 30px;
+  padding-top: 4px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-6 .Apple-Section-Content .Slider-Apple-4 i {
+  font-size: 34px;
+  color: #68cc45;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-6 .Apple-Section-Content .Slider-Apple-4 h2 a {
+  font-size: 24px;
+  font-weight: 540;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #1d1d1f;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-6 .Apple-Section-Content .Slider-Apple-4 h2 {
+  line-height: 30px;
+  padding-top: 3px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-6 .Apple-Section-Content .Slider-Apple-4 h2 a span {
+  color: #68cc45;
+
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-6 .Apple-Section-Content .Slider-Apple-4 h2 a .Sigmbol {
+  position: relative;
+  font-size: .6em;
+  top: -.5em;
+  color: #1d1d1f;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-7 .Accessories-section-Text h2 {
+  font-size: 28px;
+  padding-top: 75px;
+  padding-bottom: 7px;
+  font-weight: 500;
+  color: #6e6e73;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-7 .Accessories-section-Text span {
+  font-size: 28px;
+  /* padding-top: 50px; */
+  padding-bottom: 7px;
+  font-weight: 500;
+  color: #1d1d1f;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-7 .Accessories-Section-Content .Slider-Accessories-1 {
+  height: 500PX;
+  position: relative;
+  width: 400PX;
+  box-shadow: 2px 4px 12px #00000014;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  border-radius: 19px;
+  transition: all ease-in 0.2s;
+  cursor: pointer;
+
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-7 .Accessories-Section-Content .Slider-Accessories-1:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transform: translate3D(0, -1px, 0) scale(1.01);
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-7 .Accessories-Section-Content .Slider-Accessories-1 img {
+  border-radius: 19px;
+  height: 500px;
+  width: 100%;
+}
+
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-7 .Accessories-Section-Content .Slider-Accessories-1 .text {
+  text-align: left;
+  padding: 0px 0px 0px 35px;
+  position: absolute;
+  top: 30px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-7 .Accessories-Section-Content .Slider-Accessories-1 .text h2 {
+  margin-top: 17px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-7 .Accessories-Section-Content .Slider-Accessories-1 .text h2 a {
+  font-size: 28px;
+  color: #1d1d1f;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-7 .Accessories-Section-Content .Slider-Accessories-1 .text .Last-Para {
+  font-size: 17px;
+  margin-top: -1px;
+  color: #1d1d1f;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-8 .Product-Section-Content .Slider-Product-1 {
+  height: 500PX;
+  position: relative;
+  width: 400PX;
+  box-shadow: 2px 4px 12px #00000014;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  border-radius: 19px;
+  transition: all ease-in 0.2s;
+  cursor: pointer;
+
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-8 .Product-Section-Content .Slider-Product-1 img {
+  border-radius: 19px;
+  height: 500px;
+  width: 100%;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-8 .Product-Section-Content .Slider-Product-1 .text {
+  text-align: left;
+  padding: 0px 0px 0px 35px;
+  position: absolute;
+  top: 30px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-8 .Product-section-Text h2 {
+  font-size: 28px;
+  padding-top: 75px;
+  padding-bottom: 7px;
+  font-weight: 500;
+  color: #6e6e73;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-8 .Product-section-Text span {
+  font-size: 28px;
+  /* padding-top: 50px; */
+  padding-bottom: 7px;
+  font-weight: 500;
+  color: #1d1d1f;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-8 .Product-Section-Content .Slider-Product-1 .text {
+  text-align: left;
+  padding: 0px 0px 0px 35px;
+  position: absolute;
+  top: 30px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-8 .Product-Section-Content .Slider-Product-1 .text h2 {
+  margin-top: 17px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-8 .Product-Section-Content .Slider-Product-1 .text h2 a {
+  font-size: 28px;
+  color: #1d1d1f;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-8 .Product-Section-Content .Slider-Product-1 .text .Last-Para {
+  font-size: 17px;
+  margin-top: -1px;
+  color: #1d1d1f;
+
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-8 .Product-Section-Content .Slider-Product-1 .text .Last-Para {
+  font-size: 17px;
+  margin-top: -1px;
+  color: #1d1d1f;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-8 .Product-Section-Content .Slider-Product-1:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transform: translate3D(0, -1px, 0) scale(1.01);
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-9 .experience-Section-Content .Slider-experience-1,
+.Slider-experience-2,
+.Slider-experience-3,
+.Slider-experience-4 {
+  height: 500PX;
+  position: relative;
+  width: 480PX;
+  box-shadow: 2px 4px 12px #00000014;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  border-radius: 19px;
+  transition: all ease-in 0.2s;
+  transition: all ease-in-out 0.2s;
+  cursor: pointer;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-9 {
+  margin-left: -30px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-9 .experience-Section-Content .Slider-experience-1 img {
+  border-radius: 19px;
+  height: 500px;
+  width: 100%;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-9 .experience-Section-Content .Slider-experience-1 .text {
+  text-align: left;
+  padding: 0px 0px 0px 35px;
+  position: absolute;
+  top: 30px;
+}
+
+/* .Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-9 .experience-Section-Content .Slider-experience-1 .text {
+  font-size: 17px;
+  margin-top: -1px;
+  color: #1d1d1f;
+} */
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-9 .experience-Section-Content .Slider-experience-1 .text h2 {
+  margin-top: -12px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-9 .experience-Section-Content .Slider-experience-1 .text h2 a {
+  font-size: 28px;
+  color: #FFFFFF;
+  margin-top: -30px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-9 .experience-Section-Content .Slider-experience-1 .text .Head-Para {
+  font-size: 12px;
+  font-weight: 400;
+  color: #FFFFFF;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-9 .experience-section-Text h2 {
+  font-size: 28px;
+  padding-top: 75px;
+  margin-bottom: 4px;
+  font-weight: 500;
+  color: #6e6e73;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-9 .experience-section-Text h2 span {
+  color: #1d1d1f;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-9 .experience-Section-Content .Slider-experience-2 img {
+  border-radius: 19px;
+  height: 500px;
+  width: 100%;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-9 .experience-Section-Content .Slider-experience-2 .text {
+  text-align: left;
+  padding: 0px 0px 0px 35px;
+  position: absolute;
+  top: 30px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-9 .experience-Section-Content .Slider-experience-2 .text h2 a {
+  font-size: 28px;
+  color: #1d1d1f;
+  margin-top: 0px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-9 .experience-Section-Content .Slider-experience-2 .text h2 {
+  margin-top: 23px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-9 .experience-Section-Content .Slider-experience-3 img {
+  border-radius: 19px;
+  height: 500px;
+  width: 100%;
+}
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-9 .experience-Section-Content .Slider-experience-2 .text h2 a {
+  font-size: 21px;
+  color: #1d1d1f;
+  margin-top: 0px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-9 .experience-Section-Content .Slider-experience-3 .text {
+  text-align: left;
+  padding: 0px 0px 0px 35px;
+  position: absolute;
+  top: 55px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-9 .experience-Section-Content .Slider-experience-3 .text h2 a {
+  font-size: 28px;
+  color: #1d1d1f;
+  margin-top: 0px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-9 .experience-Section-Content .Slider-experience-3 .text .Last-Para {
+  font-size: 17px;
+  margin-top: -1px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-9 .experience-Section-Content .Slider-experience-4 img {
+  border-radius: 19px;
+  height: 500px;
+  width: 100%;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-9 .experience-Section-Content .Slider-experience-4 .text .Head-Para {
+  font-size: 12px;
+  font-weight: 400;
+  color: #6e6e73;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-9 .experience-Section-Content .Slider-experience-4 .text {
+  text-align: left;
+  padding: 0px 0px 0px 35px;
+  position: absolute;
+  top: 30px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-9 .experience-Section-Content .Slider-experience-4:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transform: translate3D(0, -1px, 0) scale(1.01);
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-9 .experience-Section-Content .Slider-experience-2:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transform: translate3D(0, -1px, 0) scale(1.01);
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-9 .experience-Section-Content .Slider-experience-3:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transform: translate3D(0, -1px, 0) scale(1.01);
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-9 .experience-Section-Content .Slider-experience-1:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transform: translate3D(0, -1px, 0) scale(1.01);
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-9 .experience-Section-Content .Slider-experience-4 .text h2 {
+  margin-top: -10px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-9 .experience-Section-Content .Slider-experience-4:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transform: translate3D(0, -1px, 0) scale(1.01);
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-9 .experience-Section-Content .Slider-experience-4 .text h2 a {
+  font-size: 28px;
+  color: #1d1d1f;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-10 .Product-Section-Content .Slider-Product-1 .text .Head-Para {
+  font-size: 12px;
+  color: #6e6e73;
+  font-weight: 500;
+  margin-bottom: 4px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-10 .Product-Section-Content .Slider-Product-1 {
+  height: 500PX;
+  position: relative;
+  width: 400PX;
+  box-shadow: 2px 4px 12px #00000014;
+  margin-top: 20px;
+  margin-left: 9px;
+  margin-bottom: 0px;
+  border-radius: 19px;
+  transition: all ease-in 0.2s;
+  cursor: pointer;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-10 .Product-Section-Content .Slider-Product-1:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transform: translate3D(0, -1px, 0) scale(1.01);
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-10 .Product-Section-Content .Slider-Product-1 img {
+
+  border-radius: 19px;
+  height: 500px;
+  width: 100%;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-10 .Product-Section-Content .Slider-Product-1 .text {
+  text-align: left;
+  padding: 0px 0px 0px 35px;
+  position: absolute;
+  top: 30px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-10 .Product-Section-Content .Slider-Product-1 .text h2 a {
+  font-size: 28px;
+  color: #080823;
+  margin-top: -10px;
+  font-weight: 540;
+  letter-spacing: .007em;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-10 .Product-section-Text h2 {
+  font-size: 28px;
+  padding-top: 75px;
+  margin-bottom: 4px;
+  font-weight: 500;
+  color: #6e6e73;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-10 .Product-section-Text h2 span {
+  color: #1d1d1f;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-11 .Store-Section-11-text h2 {
+  font-size: 28px;
+  padding-top: 75px;
+  margin-bottom: 22px;
+  font-weight: 500;
+  color: #1d1d1f;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-11 .Store-Section-11-text .BUTTONS button {
+  border-radius: 20px;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-11 .Store-Section-11-text .BUTTONS {
+  display: flex;
+  gap: 13px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-11 .Footer-section1 {
+  padding-top: 60px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-11 .Footer-section .Footer-section1 {
+  width: 89%;
+  margin: left;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-11 .Footer-section .Footer-section1 p span {
+  position: relative;
+  top: -.5em;
+  font-size: .6em;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-11 .Footer-section .Footer-section1 p {
+  margin-top: -4px;
+}
+
+.Store-Section-Data .Store-Section-Card {
+  height: 500px;
+  width: 313px;
+  background-color: #FFF;
+  border-radius: 18px;
+  box-shadow: 2px 14px 12px #00000014;
+  padding: 55px 25px 5px 25px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.Store-Section-Data .Store-Section-Card img {
+  height: 230px;
+  width: 230px;
+  border-radius: 18px;
+}
+
+.Store-Section-Data .Store-Section-Card .Text {
+  padding-top: 60px;
+  text-align: left;
+}
+
+.Store-Section-Data .Store-Section-Card .Text .Head-Para {
+  font-size: 12px;
+  color: #b64400;
+  font-weight: 500;
+  margin-bottom: 4px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Store-Section-Data .Store-Section-Card .Text h2 {
+  margin-top: 5px;
+  letter-spacing: -.022em;
+  letter-spacing: -.022em;
+  font-size: 17px;
+  color: #1d1d1f;
+  position: absolute;
+  top: 370px;
+  font-weight: 600;
+  /* padding-bottom: 28px; */
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+.Store-Section-Data .Store-Section-Card .Text .Last-para {
+  font-size: 14px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: absolute;
+  top: 450px;
+  font-weight: 300;
+  color: black;
+}
+
+.Store-Section-Data {
+  margin-left: 110px;
+  width: 100%;
+  position: relative;
+}
+
+.Main .swiper-button-prev {
+  opacity: 0;
+  display: none;
+}
+
+.Signup {
+  position: fixed;
+  width: 100%;
+  overflow: auto;
+  padding-top: 20px;
+  top: 46px;
+  padding-bottom: 40px;
+  height: 390px;
+  transition: all 0.4s;
+  z-index: 11111111111111111111;
+  background-color: #fafafc;
+}
+
+.Signup .Signup-Bag .Bag-Container {
+  height: 90px;
+  align-items: center;
+  display: flex;
+  margin: 0px 0px 5px 0px;
+  gap: 30px;
+}
+
+.Cart-Data {
+  height: auto;
+  overflow: auto;
+  padding: 0px 10px 0px 10px;
+  margin-top: 0px;
+}
+
+.Cart-Data-Main {
+  height: 300px;
+  overflow: auto;
+}
+
+.Span-Data-Hide {
+  opacity: 0;
+  display: none;
+}
+
+.Span-Data {
+  height: 30px;
+  padding: 1px 4px 1px 4px;
+  margin-left: 5px;
+  border-radius: 100%;
+  position: relative;
+  top: 2.2px;
+  font-size: 11px;
+  color: white;
+  background-color: black;
+}
+
+.Signup .Signup-Bag .Cart-Main .Cart-Head {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.Signup .Signup-Bag .Cart-Main .Cart-Head button {
+  border-radius: 20px;
+  padding: 7px 17px 7px 16px;
+  font-size: 14px;
+}
+
+.Signup .Signup-Bag .Cart-Main .Cart-Head h2 {
+  font-size: 24px;
+  color: #333336;
+  font-weight: 540;
+}
+
+.Signup .Signup-Bag .Bag-Container h2 {
+  font-size: 12px;
+  font-weight: 400;
+  color: #333336;
+}
+
+.Signup .Signup-Bag {
+  width: 73%;
+  margin: auto;
+}
+
+.Signup .Signup-Bag .Non-Signup-Data {
+  padding-bottom: 40px;
+  padding-top: 50px;
+}
+
+.Signup .Signup-Bag .Non-Signup-Data h1 {
+  font-size: 24px;
+  font-weight: 540;
+  color: #333336;
+  padding-bottom: 7px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.Signup .Signup-Bag .Non-Signup-Data span a {
+  margin-right: 4px;
+  text-decoration: underline;
+}
+
+.Signup .Signup-Bag .Non-Signup-Data span {
+  font-size: 12px;
+  color: #6e6e73;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Signup .Signup-Bag .Signup-Profile p {
+  font-size: 12px;
+  margin-bottom: 4px;
+  font-weight: 400;
+  color: #6e6e73;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Signup .Signup-Bag .Signup-Profile span {
+  font-size: 12px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Signup .Signup-Bag .Signup-Profile span i {
+  font-size: 9px;
+  margin-right: 15px;
+  margin-left: 2px;
+}
+
+.Signup-Main {
+  width: 73%;
+  padding-top: 70px;
+  margin: auto;
+}
+
+.Signup-Main .signup h1 {
+  font-size: 40px;
+  font-weight: 540;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Signup-Main .Signup-Form {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.Signup-Main .Signup-Form h2 {
+  font-size: 24px;
+  color: #494949;
+  font-weight: 540;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Signup-Main .Signup-Form input {
+  height: 55px;
+  border-radius: 13px;
+  outline: none;
+  border: 1px solid #635b61;
+  width: 440px;
+  text-indent: 10px;
+}
+.Signup-input{
+  margin-right: 17px;
+}
+.Input-1 {
+  margin-top: 24px;
+  margin-bottom: 10px;
+}
+
+.Signup-Main .Signup-Form input:focus {
+  border: 2px solid #0071e3;
+}
+
+.Signup-Main .Signup-Form input::placeholder {
+  padding-left: 0px;
+}
+
+.Signup-Main .Signup-Form button {
+  height: 44px;
+  margin: 24px auto;
+  width: 130px;
+  background-color: rgba(240, 240, 240, 0.26);
+  border: 1px solid #DFDFDF;
+  border-radius: 16px;
+  font-size: 17px;
+  color: #000000;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  transition: all .2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.Signup-Main .Signup-Form button:hover {
+  background-color: #FFFFFF;
+  border-color: rgba(0, 0, 0, 0.19);
+}
+
+.Signup-Main .Signup-Form .Checkbox-Form .Check {
+  height: 15px;
+  width: 29px;
+}
+
+.Signup-Main .Signup-Form .Checkbox-Form {
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #494949;
+  margin-top: 33px;
+  margin-bottom: 30px;
+}
+
+.Signup-Main .Signup-Form .Links-Form a {
+  font-size: 14px;
+  font-weight: 380;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Signup-Main .Signup-Form .Links-Form p {
+  position: relative;
+  text-align: center;
+  top: 7px;
+}
+
+.Signup-Main .Signup-Form .Links-Form a i {
+  color: #06c;
+}
+
+@media (min-width: 768px) {
+  .button-46 {
+    font-size: 20px;
+    min-width: 200px;
+    padding: 14px 16px;
+  }
+}
+
+.signup-Footer {
+  margin-top: 120px;
+
+}
+
+.signup-Footer .Signup-Form-footer h2 a {
+  text-decoration: underline;
+}
+
+.signup-Footer .Signup-Form-footer h2 {
+  width: 73%;
+  font-size: 17px;
+  font-weight: 340;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: auto;
+}
+
+.signup-Footer .Signup-Form-footer {
+  border-top: 1px solid #d2d2d7;
+  padding: 22px 0px 22px 0px;
+}
+
+.signup-Footer .Signup-Footer-2 {
+  background-color: #f5f5f7;
+  padding: 26px 0px 20px 0px;
+}
+.lst-signup{
+  text-align:left;
+  width:42%;
+  color:rgba(0, 0, 0, 0.56);
+  font-size:12px;
+  margin-top:-1px;
+}
+
+.signup-Footer .Signup-Footer-2 .Signup-Footer-Text {
+  width: 73%;
+  margin: auto;
+  font-size: 12px;
+  color: #0000008f;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 380;
+
+}
+
+.signup-Footer .Signup-Footer-2 .Signup-Footer-Text .Border-p {
+  font-size: 12px;
+  color: #0000008f;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 380;
+  border-bottom: 1px solid #00000029;
+  padding-bottom: 10px;
+
+}
+
+.signup-Footer .Signup-Footer-2 .Signup-Footer-Text .Border-p a {
+  color: #000000b8;
+  text-decoration: underline;
+}
+
+.signup-Footer .Signup-Footer-2 .Signup-Footer-Text p a {
+  color: #0066CC;
+  text-decoration: underline;
+}
+
+.Sign-in-form-1 .Sign-Form-Text {
+  text-align: center;
+  padding-top: 95px;
+}
+
+.Sign-in-form-1 .Sign-Form-Text h2 {
+  color: #111;
+  font-size: 34px;
+  font-weight: 600;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Sign-in-form-1 .Sign-Form-Text p {
+  font-size: 17px;
+  color: #000;
+}
+
+.Sign-in-form-1 .Sign-Form-Content {
+  text-align: center;
+}
+
+.Sign-in-form-1 .Sign-Form-Content input {
+  height: 55px;
+  width: 440px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #d2d2d7;
+  text-indent: 10px;
+}
+
+.Sign-in-form-1 .Sign-Form-Content input::placeholder {
+  padding-left: 0px;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.Sign-in-form-1 .Sign-Form-Content .Signin-First-1 input {
+  width: 210px;
+  text-indent: 10px;
+}
+
+.Sign-in-form-1 .Sign-Form-Content .Signin-First-2 p {
+  margin-left: -300px;
+  padding-top: 30px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #666;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Sign-in-form-1 .Sign-Form-Content .Signin-First-2 select {
+  height: 55px;
+  width: 440px;
+  border: 1px solid #d2d2d7;
+  border-radius: 5px;
+  margin-top: -14px;
+}
+
+.Sign-in-form-1 .Sign-Form-Content .Signin-First-3 {
+  border-top: 1px solid #d2d2d7;
+  margin-top: 35px;
+  width: 80%;
+  margin: 35px auto;
+  padding-top: 35px;
+}
+
+.Sign-in-form-1 .Sign-Form-Content .Signin-First-3 select {
+  height: 55px;
+  width: 440px;
+  border-radius: 5px;
+  border: 1px solid #d2d2d7;
+  outline: none;
+}
+
+.Sign-in-form-1 .Sign-Form-Content .Signin-First-3 p {
+  width: 40.2%;
+  margin: 12px auto;
+  font-size: 14px;
+  color: #666;
+  text-align: left;
+}
+
+.Sign-in-form-1 .Sign-Form-Content input:focus {
+  border: 2px solid #0070c9;
+  box-shadow: 0 0 0 3px rgba(131, 192, 253, .5);
+}
+
+.Sign-in-form-1 .Sign-Form-Content .Signin-First-3 select:focus {
+  border: 2px solid #0070c9;
+  box-shadow: 0 0 0 3px rgba(131, 192, 253, .5);
+}
+.Card-text h1{
+  font-size: 28px;
+  color: #333336;
+}
+.Card-text{
+  margin-bottom: 60px;
+}
+.Card-text a{
+  text-decoration: underline;
+  padding-bottom: 50px;
+}
+.Sign-in-form-1 .Sign-Form-Content .Signin-First-2 select:focus {
+  border: 2px solid #0070c9;
+  box-shadow: 0 0 0 3px rgba(131, 192, 253, .5);
+}
+
+.Sign-in-form-1 .Sign-Form-Content .Signin-First-3 button {
+  background: linear-gradient(#42a1ec, #0070c9);
+  border: 1px solid #07c;
+  color: #fff;
+  font-size: 17px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-radius: 3px;
+  padding: 4px 15px 4px 15px;
+  font-weight: 400;
+}
+
+.Footer-Signin-1 {
+  background-color: #f5f5f7;
+}
+
+.Footer-Text-1-Signin {
+  padding-top: 15px;
+  font-size: 12px;
+  color: #6e6e73;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 73%;
+  margin: auto;
+}
+
+.Signup .Signup-Bag .Non-Signup-Data span a {
+  color: #0070c9;
+}
+
+/* .Mac-main .Mac-Icons .Mac-Icons-1 img{
+  height: 30px;
+  width: 30px;
+} */
+.Mac-main .MAC-Icons .Mac-Icons-1 {
+  height: 80px;
+  width: 80px;
+  text-align: center;
+}
+
+.Mac-main .MAC-Icons .Mac-Icons-1 .Upper {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-top: 3px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Mac-main .MAC-Icons .Mac-Icons-1 .Upper-Last {
+  font-size: 10px;
+  color: rgb(182, 68, 0);
+  margin-top: -18px;
+}
+
+.Mac-main .MAC-Icons {
+  padding-top: 70px;
+  width: 83%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: auto;
+}
+
+.Mac-main .MAC-MAIN1 {
+  background-color: #fafafc;
+  padding-bottom: 32px;
+}
+
+.Mac-main .store-section-1 {
+  background-color: #f5f5f7;
+}
+
+.Mac-main .store-section-1 .Banner {
+  font-size: 14px;
+  text-align: center;
+  padding: 14px 0px 14px 0px;
+  font-weight: 360;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Mac-main .store-section-1 .Banner a i {
+  color: #0d6efd;
+}
+
+.Mac-main .store-section-1 .Banner a {
+  margin-left: 3px;
+}
+
+.Mac-main .store-section-1 .Banner span {
+  position: relative;
+  top: -.5em;
+  font-size: .6em;
+}
+
+.Mac-Main-Section-1 .Mac-Main-Section-1-text {
+  padding-top: 40px;
+  padding-bottom: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 88%;
+  margin: auto;
+}
+
+.Mac-Main-Section-1 .Mac-Main-Section-1-text p {
+  font-size: 28px;
+  font-weight: 540;
+  color: #1d1d1f;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Mac-Main-Section-1 .Mac-Main-Section-1-text h1 {
+  font-size: 80px;
+  font-family: #1d1d1f;
+  font-weight: 540;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Mac-Main-Section-1 .Mac-Main-Section-1-Content {
+  width: 87%;
+  margin: auto;
+
+}
+
+.Mac-Main-Section-1 .Mac-Main-Section-1-Content video {
+  width: 100%;
+  height: 10%;
+  border-radius: 30px;
+}
+
+.Mac-Main-Section-2 .Mac-Main-Section-2-text h1 {
+  font-size: 56px;
+  font-family: #1d1d1f;
+  width: 88%;
+  margin: auto;
+  padding: 120px 0px 70px 0px;
+  font-weight: 540;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Mac-Main-Section-2 .Mac-Main-Section-2-Content img {
+  height: 100%;
+  width: 100%;
+  z-index: 11;
+  border-radius: 30px;
+  box-shadow: 2px 14px 12px #00000014;
+}
+
+.Mac-Main-Section-2 .Mac-Main-Section-2-Content {
+  width: 1167px;
+  background: url("../src/assets/hero__ebxx5f9ked8i_large_2x.jpg");
+  position: relative;
+  transition: all ease-in-out 0.4s;
+  background-position: center;
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  background-size: 120% 100%;
+  height: 680px;
+  margin: auto;
+  position: relative;
+  transition: all ease-in-out 0.4s;
+}
+
+.Mac-Main-Section-2 .Mac-Main-Section-2-Content .Mac-Main-Text {
+  position: absolute;
+  bottom: 80px;
+  text-align: center;
+  left: 22%;
+  z-index: 111111;
+}
+
+.Mac-Main-Section-2 .Mac-Main-Section-2-Content .Mac-Main-Text h1 {
+  font-size: 56px;
+  font-weight: 540;
+  color: rgb(245, 245, 247);
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Mac-Main-Section-2 .Mac-Main-Section-2-Content .Mac-Main-Text .btns button {
+  padding: 8px 17px;
+  border-radius: 23px;
+  margin-top: 10px;
+
+}
+
+.Mac-Main-Section-2 .Mac-Main-Section-2-Content .Mac-Main-Text .btns .btn1 {
+  background-color: #f5f5f7;
+  padding: 8px 17px;
+  margin-left: -60px;
+  margin-top: 10px;
+  margin-right: 20px;
+  border-radius: 23px;
+
+}
+
+.Mac-Main-Section-2 .Mac-Main-Section-2-Content:hover {
+  transform: translate3D(0, -1px, 0) scale(1.01);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.Mac-Main-Section-3 .Mac-Main-Section-3-text h1 {
+  font-size: 56px;
+  font-family: #1d1d1f;
+  width: 88%;
+  margin: auto;
+  padding: 120px 0px 70px 0px;
+  font-weight: 540;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Mac-Main-Section-3 .Mac-Main-Section-3-Content .Slider-Product-1 {
+  height: 680px;
+  width: 372px;
+  position: relative;
+  cursor: pointer;
+}
+
+.Mac-Main-Section-3 .Mac-Main-Section-3-Content {
+  width: 87%;
+  margin: auto;
+}
+
+.Mac-Main-Section-3 .Mac-Main-Section-3-Content .Slider-Product-1 img {
+  height: 680px;
+  border-radius: 25px;
+  width: 372px;
+}
+
+.Mac-Main-Section-3 .Mac-Main-Section-3-Content .Slider-Product-1 .text-black p {
+  color: rgb(29, 29, 31);
+  font-weight: 540;
+  margin-top: -7px;
+  font-size: 28px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Mac-Main-Section-3 .Mac-Main-Section-3-Content .Slider-Product-1 .text,
+.Slider-Product-1 .text-black {
+  position: absolute;
+  top: 15px;
+  left: 30px;
+  text-align: left;
+}
+
+.Mac-Main-Section-3 .Mac-Main-Section-3-Content .Slider-Product-1 .text-black h2 a {
+  font-size: 17px;
+  color: rgb(29, 29, 31);
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Mac-Main-Section-3 .Mac-Main-Section-3-Content .Slider-Product-1 .text h2 a {
+  font-size: 17px;
+  color: #f5f5f7;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Mac-Main-Section-3 .Mac-Main-Section-3-Content .Slider-Product-1 .text p {
+  color: #f5f5f7;
+  font-weight: 540;
+  margin-top: -7px;
+  font-size: 28px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Mac-Main-Section-3 .Mac-Main-Section-3-Content .Slider-Product-1 .icons {
+  position: absolute;
+  bottom: 20px;
+  right: 21px;
+
+
+}
+
+.Mac-Main-Section-3 .Mac-Main-Section-3-Content .Slider-Product-1 .icons i {
+  color: #d6d6d7;
+  background-color: rgb(51, 51, 54);
+  border-radius: 30px;
+  padding: 5px 7px 5px 7px;
+  font-size: 22px;
+}
+
+.Mac-Main-Section-3 .Mac-Main-Section-3-Content .Slider-Product-1 .icons i:hover {
+  background-color: #37373a;
+  color: rgb(255, 255, 255);
+}
+.tabs2image{
+  margin-top: 220PX; 
+  height: 58px; 
+  width: 316px;
+}
+
+.Mac-Main-Section-4 {
+  margin-top: 170px;
+  background-color: #fafafa;
+  padding-top: 120px;
+  /* height: 300vh; */
+  position: relative;
+}
+
+.Mac-Main-Section-4 .Mac-Main-Section-3-text h1 {
+  width: 87%;
+  margin: auto;
+  font-size: 56px;
+  color: #1d1d1f;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Mac-Main-Section-4 .Mac-Main-Section-3-Content .Nav-tabs-Sect-4 .Navs-ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-size: 17px;
+  border-radius: 25px;
+  width: 358px;
+  text-align: center;
+  color: rgb(29, 29, 31);
+  background-color: rgb(255, 255, 255);
+}
+.img-media{
+  height: 268px;
+ 
+  width: 316px;
+  margin-top: 12px;
+ }
+ .Navs-Content-Main .Navs-Content-Main-1 .uper-media{
+  width: 354px;
+  height: 236px;
+ }
+ .Navs-Content-Main .Navs-Content-Main-1  .Uper-media3{
+  width: 354px;
+  height: 262px;
+ }
+ .Navs-Content-Main .Navs-Content-Main-1 .Uper1 {
+  height: 307px;
+  width: 271px;
+ }
+ .Navs-Content-Main .Navs-Content-Main-1 .Uper2:hover{
+  transform: translate3D(0, -1px, 0) scale(1.01);
+ }
+  .Navs-Content-Main .Navs-Content-Main-1 .Uper2{
+    height: 307px;
+    width: 271px;
+  }
+ .Navs-Content-Main .Navs-Content-Main-1 .Uper3{
+  height: 307px;
+  width: 195px;
+ }
+ .Navs-Content-Main .Navs-Content-Main-1 .Uper4{
+  height: 307px;
+  width: 151px;
+ }
+ .Navs-Content-Main .Navs-Content-Main-1 .Uper4:hover{
+  transform: translate3D(0, -1px, 0) scale(1.01);
+ }
+ .Navs-Content-Main .Navs-Content-Main-1 .Uper3:hover{
+  transform: translate3D(0, -1px, 0) scale(1.01);
+ }
+ .Navs-Content-Main .Navs-Content-Main-1 .Uper1:hover {
+  transform: translate3D(0, -1px, 0) scale(1.01);
+ }
+ .Navs-Content-Main .Navs-Content-Main-1 .uper-media:hover {
+  transform: translate3D(0, -1px, 0) scale(1.01);
+}
+.Navs-Content-Main .Navs-Content-Main-1 .Uper-media3 :hover {
+  transform: translate3D(0, -1px, 0) scale(1.01);
+}
+ .Navs-Content-Main .Navs-Content-Main-1 .img-meida1{
+  margin-top: 255px;
+  margin-bottom: 1px;
+  height: 16px;
+  width: 214px;
+ }
+ .img-media2{
+  margin-top: -22PX;
+  height: 302px;
+  width: 316px;
+  }
+
+.Mac-Main-Section-4 .Mac-Main-Section-3-Content .Nav-tabs-Sect-4 .Navs-ul li {
+  margin-top: 10px;
+  height: 40px;
+}
+
+.Mac-Main-Section-4 .Mac-Main-Section-3-Content .Nav-tabs-Sect-4 .Navs-ul li button {
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  background-color: transparent;
+  height: 40px;
+  top: -5px;
+  width: 100px;
+  left: -22px;
+  position: relative;
+}
+
+.Mac-Main-Section-4 .Mac-Main-Section-3-Content {
+  padding-top: 100px;
+  width: 90%;
+  margin: auto;
+}
+
+.Contact {
+  display: none;
+}
+
+.Show-Content {
+  display: inline;
+}
+
+.Navs-Content-Main {
+  display: flex;
+}
+
+.Navs-Content-Main .Navs-Content-Main-1 {
+  margin-top: 100px;
+  margin-left: 33px;
+  cursor: pointer;
+  position: relative;
+  width: 350px;
+  text-align: center;
+}
+
+.Navs-Content-Main .Navs-Content-Main-1 .Uper {
+  width: 376px;
+  height: 186px;
+}
+
+.Navs-Content-Main .Navs-Content-Main-1 .Navs-Content-Main-1-Text {
+  padding-top: 70px;
+}
+
+.Navs-Content-Main .Navs-Content-Main-1 .Navs-Content-Main-1-Text .Upper-Para {
+  font-size: 12px;
+  color: rgb(182, 68, 0);
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Navs-Content-Main .Navs-Content-Main-1 .Navs-Content-Main-1-Text .Upper-Title {
+  font-size: 28px;
+  color: #1d1d1f;
+  font-weight: 540;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Navs-Content-Main .Navs-Content-Main-1 .Navs-Content-Main-1-Text .Upper-Head-1 {
+  font-size: 17px;
+  color: #1d1d1f;
+  margin-top: -3px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Navs-Content-Main .Navs-Content-Main-1 .Navs-Content-Main-1-Text .Border-Uper-para {
+  font-size: 17px;
+  color: #1d1d1f;
+  font-weight: 350;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Navs-Content-Main .Navs-Content-Main-1 .Navs-Content-Main-1-Text .Border-Uper-head {
+  font-size: 17px;
+  color: #1d1d1f;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Navs-Content-Main .Navs-Content-Main-1 .Navs-Content-Main-1-Text .Btns {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #d2d2d7;
+}
+
+.Navs-Content-Main .Navs-Content-Main-1 .Navs-Content-Main-1-Text .Btns button {
+  border-radius: 25px;
+  padding: 8px 20px;
+  margin-left: -19px;
+
+}
+
+.Navs-Content-Main .Navs-Content-Main-1 .Navs-Content-Main-1-Text .Btns a i {
+  color: rgb(0, 102, 204);
+}
+
+.Navs-Content-Main .Navs-Content-Main-1 .Navs-Content-Main-1-Text .Btns a {
+  margin-left: 20px;
+  font-size: 17px;
+  color: rgb(0, 102, 204);
+  font-weight: 350;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Navs-Content-Main .Navs-Content-Main-1 .Navs-Content-Main-1-Text .Upper-Para-Border {
+  font-size: 12px;
+  font-weight: 340;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Navs-Content-Main .Navs-Content-Main-1 .Navs-Content-Main-1-Text .Upper-Para-Border span {
+  font-size: .5em;
+  position: relative;
+  top: -.6em;
+}
+.Signup-Profile{
+  padding-top: 10px;
+}
+
+.Navs-Content-Main .Navs-Content-Main-1 .Navs-Content-Main-1-Text .Mac-Border-in-1 {
+  padding-top: 35px;
+  position: relative;
+}
+
+.Navs-Content-Main .Navs-Content-Main-1 .Navs-Content-Main-1-Text .Mac-Border-in-1 p {
+  font-size: 12px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Navs-Content-Main .Navs-Content-Main-1 .Navs-Content-Main-1-Text .Mac-Border-in-1 p span {
+  position: relative;
+  top: -.6em;
+  font-size: .5em;
+}
+
+.Navs-Content-Main .Navs-Content-Main-1 img {
+  transition: all ease-in 0.4s;
+}
+
+.Navs-Content-Main .Navs-Content-Main-1 .Uper:hover {
+  transform: translate3D(0, -1px, 0) scale(1.01);
+}
+
+.Navs-Content-Main .Navs-Content-Main-1 .IconImg {
+  height: 56px;
+  width: 80px;
+}
+
+.Navs-Content-Main .swiper .Upper-Para {
+  opacity: 0;
+}
+
+.Slash-Space::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 20px;
+  background-color: rgb(29, 29, 31);
+  top: 88px;
+  left: 163px;
+}
+
+.Slash-Space {
+  position: relative;
+}
+
+.Navs-Content-Main .swiper .swiper-button-next {
+  margin-top: -270px;
+}
+
+.Navs-Content-Main .swiper .swiper-button-prev {
+  margin-top: -270px;
+}
+
+.Mac-Main-Section-4 .Mac-Main-Section-3-Content .Nav-tabs-Sect-4 .Navs-ul li .active {
+  background-color: black;
+  color: white;
+}
+
+.Mac-Main-Section-5 .Mac-Main-Section-5-text h1 {
+  font-size: 56px;
+  color: #000000;
+  padding-top: 90px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Mac-Main-Section-5 .Mac-Main-Section-5-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 86%;
+  margin: auto;
+}
+
+.Mac-Main-Section-5 .Mac-Main-Section-5-text a {
+  font-size: 17px;
+  font-weight: 300;
+  margin-top: 110px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Mac-Main-Section-5 .Mac-Main-Section-5-text a i {
+  font-size: 17px;
+  color: #06c;
+  font-weight: 700;
+}
+
+.Mac-Main-Section-5 {
+  background-color: #fafafa;
+
+}
+
+.Mac-Main-Section-5 .Mac-Main-Section-5-Content .swiper .Slider-Product-1 {
+  height: 284px;
+  width: 372px;
+  background-color: rgb(255, 255, 255);
+  padding: 30px 20px 20px 30px;
+  text-align: left;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-left: 30px;
+  position: relative;
+  cursor: pointer;
+  transition: all ease-in 0.3s;
+
+}
+
+.Mac-Main-Section-5 .Mac-Main-Section-5-Content .swiper .Slider-Product-1 .text p {
+  font-size: 17px;
+  color: rgb(29, 29, 31);
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Mac-Main-Section-5 .Mac-Main-Section-5-Content .swiper .Slider-Product-1 .text h2 a {
+  font-size: 28px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 550;
+  line-height: -0px;
+  padding-top: 6px;
+  color: rgb(29, 29, 31);
+}
+
+.Mac-Main-Section-5 .Mac-Main-Section-5-Content .swiper .Slider-Product-1 .icons i {
+  position: absolute;
+  right: 22px;
+  bottom: 19px;
+
+}
+
+.Mac-Main-Section-5 .Mac-Main-Section-5-Content .swiper .Slider-Product-1 .icons i {
+  color: #d6d6d7;
+  background-color: rgb(51, 51, 54);
+  border-radius: 30px;
+  padding: 2px 8px 2px 8px;
+  font-size: 22px;
+
+}
+
+.Mac-Main-Section-5 .Mac-Main-Section-5-Content .swiper .Slider-Product-1 .icons i:hover {
+  background-color: #37373a;
+  color: rgb(255, 255, 255);
+}
+
+.Mac-Main-Section-5-Content {
+  width: 85%;
+  margin: 50px auto;
+  padding-bottom: 160px;
+}
+
+.Mac-Main-Section-6 .Mac-Main-Text h1 {
+  font-size: 56px;
+  padding-top: 60px;
+  width: 88%;
+  font-weight: 540;
+  margin: auto;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #1d1d1f;
+}
+
+.Mac-Main-Section-6 .Mac-Main-Section-6-Content {
+  width: 88%;
+  margin: 70px auto;
+  background-color: #fafafa;
+  justify-content: space-between;
+  border-radius: 30px;
+  height: 790px;
+  overflow: hidden;
+  padding: 120px 10px 120px 70px;
+  position: relative;
+  /* gap: 30px */
+}
+
+.Mac-Main-Section-6 .Mac-Main-Section-6-Content .accordion {
+  background-color: transparent;
+  width: 33%;
+  margin: left;
+  position: absolute;
+  top: 200px;
+}
+
+.Mac-Main-Section-6 .Mac-Main-Section-6-Content .accordion .accordion-item,
+.accordion-header {
+  background-color: transparent;
+}
+
+.Mac-Main-Section-6 .Mac-Main-Section-6-Content .accordion-header button:focus {
+  box-shadow: none;
+}
+
+.Mac-Main-Section-6 .Mac-Main-Section-6-Content .accordion-header button {
+  font-size: 28px;
+  background-color: transparent;
+  font-weight: 540;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgb(29, 29, 31);
+}
+
+.Mac-Main-Section-6 .Mac-Main-Section-6-Content .Img-Accordian .imag1 {
+  position: absolute;
+  left: 520px;
+  top: 180px;
+}
+
+.Mac-Main-Section-6 .Mac-Main-Section-6-Content .Img-Accordian .imag1 {
+  position: absolute;
+  left: 520px;
+  top: 180px;
+  height: 417px;
+  width: 816px;
+}
+
+.Mac-Main-Section-6 .Mac-Main-Section-6-Content .Img-Accordian .imag2 {
+  position: absolute;
+  left: 520px;
+  top: 70px;
+  height: 647px;
+  width: 898px;
+}
+
+.Mac-Main-Section-6 .Mac-Main-Section-6-Content .Img-Accordian .imag3 {
+  position: absolute;
+  left: 520px;
+  top: 170px;
+  height: 412px;
+  width: 668px;
+}
+
+.image_Accordian {
+  opacity: 0;
+  display: none;
+}
+
+.Mac-Main-Section-7 .Mac-Main-Text h1 {
+  font-size: 56px;
+  color: #1d1d1f;
+  padding-top: 50px;
+  width: 88%;
+  margin: auto;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Mac-Main-Section-7 .Mac-Main-Text {
+  width: 88%;
+  margin: auto;
+  padding: 0px 30px 0px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Mac-Main-Section-7 .Mac-Main-Text a i {
+  margin-left: 2px;
+  color: #0066CC;
+}
+
+.Mac-Main-Section-7 .Mac-Main-Text a:hover {
+  text-decoration: underline;
+}
+
+.Mac-Main-Section-7 .Mac-Main-Text a {
+  margin: 50px 0px 0px -20px;
+  color: #0066CC;
+}
+
+.Mac-Main-Section-7 .Mac-Main-Section-7-Content .Mac-Product-1 .Mac-Product-1-Text {
+  height: 240px;
+  padding: 44px 0px 0px 0px;
+  text-align: center;
+}
+
+.Mac-Main-Section-7 .Mac-Main-Section-7-Content .Mac-Product-1 .Mac-Product-1-Text h2 {
+  font-size: 28px;
+  font-weight: 500;
+  color: #1d1d1f;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Mac-Main-Section-7 .Mac-Main-Section-7-Content .Mac-Product-1 .Mac-Product-1-Text p {
+  font-size: 17px;
+  font-weight: 300;
+  color: #1d1d1f;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Mac-Main-Section-7 .Mac-Main-Section-7-Content .Mac-Product-1 .Mac-Product-1-Text a {
+  font-size: 17px;
+  color: #0066CC;
+  font-weight: 300;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Mac-Main-Section-7 .Mac-Main-Section-7-Content {
+  width: 88%;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  padding: 70px 0px 40px 0px;
+}
+
+.Mac-Main-Section-7 .Mac-Main-Section-7-Content .Mac-Product-1 {
+  height: 560px;
+  width: 587px;
+  background-color: #fafafa;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.Mac-Main-Section-7 .Mac-Main-Section-7-Content .Mac-Product-1 .Mac-Product-1-Image {
+  width: 100%;
+  width: 620px;
+  height: 320px;
+}
+
+.Mac-Main-Section-7 .Mac-Main-Section-7-Content .Mac-Product-1 .Mac-Product-1-Text a i {
+  color: #0066CC;
+}
+
+.Mac-Main-Section-8 {
+  margin-top: 120px;
+  padding-top: 120px;
+  background-color: #fafafa;
+  padding-bottom: 120px;
+}
+
+.Mac-Main-Section-8 .text-Head h1 {
+  font-size: 48px;
+  width: 88%;
+  margin: auto;
+  color: #1d1d1f;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Mac-Main-Section-8 .Text-Content .Text-Content-1 h2 {
+  font-size: 28px;
+  color: #1d1d1f;
+  font-weight: 540;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Mac-Main-Section-8 .Text-Content .Text-Content-1 .Uper-Para {
+  font-size: 12px;
+  font-weight: 290;
+  color: #6e6e73;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Mac-Main-Section-8 .Text-Content {
+  width: 88%;
+  padding-top: 60px;
+  display: flex;
+  gap: 30px;
+  margin: auto;
+}
+
+.Mac-Main-Section-8 .Text-Content .Text-Content-1 .Last-Para {
+  font-size: 14px;
+  font-weight: 320;
+  color: #1d1d1f;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.Footer-Section-9 .Footer-Section-9-1 .Footer-section-para p {
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: -4px;
+  color: rgba(0, 0, 0, 0.56);
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  text-align: left;
+
+}
+
+.Footer-Section-9 .Footer-Section-9-1 .Footer-section-para p a {
+  text-decoration: underline;
+  font-size: 12px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  color: rgba(0, 0, 0, 0.72);
+}
+
+.Footer-Section-9 .Footer-Section-9-1 {
+  width: 980px;
+  margin: auto;
+
+}
+
+.Footer-Section-9 {
+  background-color: #f5f5f7;
+  padding-top: 20px;
+
+}
+
+.Footer-Section-9 .Footer-Section-9-1 .Footer-section-para {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+}
+
+.IPad-Main .IPad-Header .MAC-Icons {
+  width: 76%;
+  margin: auto;
+  padding-top: 70px;
+
+  padding-left: 35px;
+  display: flex;
+  text-align: center;
+  gap: 20px;
+}
+
+.IPad-Main .IPad-Header {
+  background-color: #fafafa;
+}
+
+.IPad-Main .IPad-Header .MAC-Icons .Mac-Icons-1 {
+  height: 120px;
+  width: 80px;
+  text-align: center;
+}
+
+.IPad-Main .IPad-Header .MAC-Icons .Mac-Icons-1 .Upper {
+  font-size: 12px;
+  margin-top: 3px;
+  font-weight: 400;
+}
+
+.IPad-Main .IPad-Header .MAC-Icons .Mac-Icons-1 .Upper-Last {
+  font-size: 10px;
+  font-weight: 400;
+  color: rgb(182, 68, 0);
+  margin-top: -14px;
+}
+
+.IPad-Main .IPad-Header .store-section-1 .Banner {
+  padding: 12px 0px 12px 0px;
+  background-color: #f5f5f7;
+  text-align: center;
+  font-size: 14px;
+  position: relative;
+}
+
+.IPad-Main .IPad-Header .store-section-1 .Banner span {
+  position: relative;
+  top: -.6em;
+  font-size: .5em;
+}
+
+.IPad-Main .IPad-Header .store-section-1 .Banner a i {
+  font-size: 18px;
+  position: absolute;
+  top: 7px;
+  color: #0070c9;
+}
+
+.Mac-Main-Section-3 .Mac-Main-Section-3-Content .swiper .swiper-slide .Slider-Product-1:hover {
+  transform: translate3D(0, -1px, 0) scale(1.01);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.Mac-Main-Section-3 .Mac-Main-Section-3-Content .swiper .swiper-slide .Slider-Product-1 {
+  box-shadow: 2px 4px 12px #00000014;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  text-align: left;
+  background-color: transparent;
+  margin-left: 30px;
+  border-radius: 20px;
+  transition: all ease-in 0.2s;
+  cursor: pointer;
+}
+.apple-1{
+  margin-right: 0px;
+}
+
+.Store-sect .Store-Section-Main-body .Store-Section-Main .Store-Section-6 .Apple-Section-Content .Slider-Apple-1:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transform: translate3D(0, -1px, 0) scale(1.01);
+
+}
+
+.Mac-Main-Content {
+  background-color: #f5f5f7;
+  margin-top: 170px;
+}
+
+.Ipad-Content .Mac-Main-Content .Mac-Main-Section-3-Content .Mac-Border-in-1 p {
+  padding-top: 15px;
+}
+
+.Ipad-Content .Mac-Main-Content .Mac-Main-Section-3 .Mac-Main-Section-3-text h1 {
+  padding-bottom: 0px;
+}
+
+.Mac-Main-Content .Mac-Main-Section-3 .Mac-Main-Section-3-Content .swiper .swiper-button-next,
+.Mac-Main-Content .Mac-Main-Section-3 .Mac-Main-Section-3-Content .swiper .swiper-button-prev {
+  margin-top: -470px;
+}
+
+.Mac-Main-Content .Mac-Main-Section-7 .Mac-Main-Section-7-Content {
+  padding-top: 70px;
+}
+
+.Mac-Main-Content .Mac-Main-Section-7 .Mac-Main-Text h1 {
+  padding-top: 180px;
+  margin-left: 1px;
+}
+
+.Mac-Main-Content .Mac-Main-Section-7 .Mac-Main-Section-7-Content .Mac-Product-1 .Mac-Product-1-Text .Upper-Para {
+  font-size: 12px;
+  color: rgb(182, 68, 0);
+}
+.ipad-2{
+  margin-left: 16px;
+}
+.ipad3{
+margin-left: 26px;
+}
+.text-ipad-1{
+  margin-top: 130px;
+}
+
+.Ipad-Content .Mac-Main-Section-7 .Mac-Main-Section-7-Content .Mac-Product-1 {
+  background-color: rgb(255, 255, 255);
+  height: 635px;
+}
+
+.Ipad-Content .Mac-Main-Section-5 .Mac-Main-Section-5-text a i {
+  color: #0066CC;
+}
+
+.Ipad-Content .Mac-Main-Section-5 .Mac-Main-Section-5-text a:hover {
+  text-decoration: underline;
+}
+
+.Mac-Main-Section-5 .Mac-Main-Section-5-Content .swiper .Slider-Product-1:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transform: translate3D(0, -1px, 0) scale(1.01);
+
+}
+
+.Ipad-Content .Mac-Main-Section-5 .Mac-Main-Section-5-Content .swiper .Slider-Product-1 {
+  width: 372px;
+  height: 312px;
+  margin-bottom: 20px;
+}
+
+.Ipad-Content .Mac-Main-Section-5 .Mac-Main-Section-5-Content .swiper .Slider-Product-1 .text {
+  margin-top: 20px;
+}
+
+.Product-1-Slier {
+  margin-left: -20px;
+}
+
+.Ipad-Content .Mac-Main-Section-6 {
+  padding-top: 70px;
+}
+
+.Mac-Main-Section-6 .Mac-Main-Section-6-Content .Img-Accordian .imagipad2 {
+  position: absolute;
+  left: 520px;
+  top: 10px;
+  height: 754px;
+  width: 1090px;
+}
+
+.Accesories-Main-Section-Cont .Accories-Main-Section-1 .Main-Section-1-text h2 {
+  font-size: 48px;
+  color: #1d1d1f;
+  font-weight: 560;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.Accesories-Main-Section-Cont .Accories-Main-Section-1 {
+  width: 73%;
+  margin: auto;
+  /* padding-top: 160px; */
+  height: 420px;
+  align-items: center;
+  position: relative;
+  display: flex;
+}
+
+.Accesories-Main-Section-Cont .Accories-Main-Section-1 .Main-Section-1-text p {
+  font-size: 21px;
+  color: #1d1d1f;
+  margin-top: 10px;
+}
+
+.Accesories-Main-Section-Cont .Accories-Main-Section-1 .Main-Section-1-text a {
+  font-size: 21px;
+  color: #0066CC;
+}
+
+.Accesories-Main-Section-Cont .Accories-Main-Section-1 .Main-Section-1-text a i {
+  color: #0066CC;
+}
+
+.Accesories-Main-Section-Cont .Accories-Main-Section-1 .Main-Section-1-text a:hover {
+  text-decoration: underline;
+}
+
+.Accesories-Main-Section-Cont {
+  width: 100%;
+  height: 380px;
+  position: relative;
+  background-color: #f5f5f7;
+  top: -10px;
+  overflow: hidden;
+}
+
+.Accesories-Main-Section-Cont .Accories-Main-Section-1 .Accories-Main-Section-1-Content img {
+  width: 1440px;
+  height: 480px;
+  position: absolute;
+  top: -100px;
+}
+
+.Accesories-Main-Section .Accesories-Main .Navbar {
+  background-color: rgba(250, 250, 252, .8);
+}
+
+.Accesories-Main-Section .Accesories-Main-Content-1 .Accesories-Main-Content-1-text {
+  text-align: center;
+  position: relative;
+
+}
+
+.Accesories-Main-Section .Accesories-Main-Content-1 .Accesories-Main-Content-1-text h2 {
+  font-size: 32px;
+  color: #1d1d1f;
+  margin-top: 90px;
+  font-weight: 540;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.P-footer {
+  color:#6e6e73;
+  font-size: 12px;
+}
+.Accesories-Main-Section .Accesories-Main-Content-1 .Accesories-Main-Content-1-text input {
+  height: 55px;
+  width: 580px;
+  outline: none;
+  margin-top: 16px;
+  border: 1px solid #86868b;
+  border-radius: 7px;
+}
+
+.Accesories-Main-Section .Accesories-Main-Content-1 .Accesories-Main-Content-1-text input::placeholder {
+  padding-left: 0px;
+}
+
+.Accesories-Main-Section .Accesories-Main-Content-1 .Accesories-Main-Content-1-text i {
+  position: absolute;
+  top:30px;
+  margin-left: 16px;
+  color: grey;
+  font-size: 18px;
+}
+
+.Accesories-Main-Content-1-content .Accesories-Main-Content-1 .Nav-Tabs {
+  padding-top: 70px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 59px;
+  position: relative;
+}
+
+.Accesories-Main-Content-1-content .Accesories-Main-Content-1 .Nav-Tabs a:hover {
+
+  color: #1d1d1f;
+}
+
+.Accesories-Main-Content-1-content .Accesories-Main-Content-1 .Nav-Tabs .A-link:focus {
+  color: #1d1d1f;
+
+}
+
+.Accesories-Main-Content-1-content .Accesories-Main-Content-1 .Nav-Tabs .A-link-1:focus {
+  color: #1d1d1f;
+}
+
+.Accesories-Main-Content-1-content .Accesories-Main-Content-1 .Nav-Tabs .A-link:focus {
+  color: #1d1d1f;
+}
+
+.Accesories-Main-Content-1-content .Accesories-Main-Content-1 .Nav-Tabs .A-link-1::after {
+  content: "";
+  position: absolute;
+  top: 111px;
+  color: black;
+  width: 151px;
+  margin-left: -151.5px;
+  height: 1px;
+  background-color: black;
+}
+
+.Accesories-Main-Content-1-content .Accesories-Main-Content-1 .Nav-Tabs .A-link {
+  color: #1d1d1f;
+}
+
+.Accesories-Main-Content-1-content .Accesories-Main-Content-1 .Nav-Tabs .A-link::after {
+  content: "";
+  position: absolute;
+  top: 111px;
+  color: black;
+  width: 140px;
+  margin-left: -141.31px;
+  height: 1px;
+  background-color: black;
+}
+
+.Accesories-Main-Content-1-content .Accesories-Main-Content-1 .Nav-Tabs a {
+  font-size: 17px;
+  color: #6e6e73;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.Accesories-Main-Content-1-content .Accesories-Main-Content-1 .nav-Tabs-Acces .Nav-tabs-content-1 .Nav-Tabs-1 {
+  height: 180px;
+  width: 180px;
+
+}
+
+.Accesories-Main-Content-1-content .Accesories-Main-Content-1 .nav-Tabs-Acces .Nav-tabs-content-1 .Nav-Tabs-1 .nav-tabs-img {
+  height: 143px;
+  margin: auto;
+  width: 143px;
+  margin-bottom: 17px;
+  border: 1px solid #d2d2d7;
+  padding: 30px 20px 20px 35px;
+  border-radius: 120px;
+
+}
+
+.Accesories-Main-Content-1-content .Accesories-Main-Content-1 .nav-Tabs-Acces .Nav-tabs-content-1 .Nav-Tabs-1 .nav-tabs-text a:hover {
+  text-decoration: underline;
+  color: #0066CC;
+}
+
+.Accesories-Main-Content-1-content .Accesories-Main-Content-1 .nav-Tabs-Acces .Nav-tabs-content-1 .Nav-Tabs-1 .nav-tabs-text a {
+  font-size: 17px;
+  color: #1d1d1f;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.Accesories-Main-Content-1-content .Accesories-Main-Content-1 .nav-Tabs-Acces .Nav-tabs-content-1 {
+  width: 70%;
+  margin: 15px auto;
+  display: flex;
+  gap: 50px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #d2d2d7;
+  border-top: 1px solid #d2d2d7;
+}
+
+.Accesories-Main-Content-1-content .Accesories-Main-Content-1 .nav-Tabs-Acces .Nav-tabs-content-1 .Nav-Tabs-1 .nav-tabs-text {
+  text-align: center;
+  width: 143px;
+}
+
+.Navs_hide {
+  opacity: 0;
+  display: none;
+}
+.h2-acces{
+  position: absolute;
+  top:370px ;
+}
+.Link-show {
+  position: absolute;
+  margin-top: 208px;
+  right: 600px;
+  background-color: #FFFFFF;
+  padding: 20px;
+
+}
+
+.Link-show i {
+  color: #0066CC;
+}
+.Data-1img{
+  height: 291px;
+   width: 266px;
+}
+.Accesories-Main-Content-1-content .Accesories-Main-Content-2 .Accesories-Main-Text-2 h1 {
+  font-size: 40px;
+  color: #1d1d1f;
+  padding-top: 90px;
+  text-align: center;
+  font-weight: 540;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.Accesories-Main-Content-2 .Accesories-Main-Content-2-IN .swiper .Slider-Product-1 {
+  width: 346px;
+  height: 528px;
+  background-color: #f5f5f7;
+  position: relative;
+  padding: 30px 29px 25px 29px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.Accesories-Main-Content-2 .Accesories-Main-Content-2-IN .swiper .Slider-Product-1 .Last-para {
+  padding-top: 40px;
+  font-size: 12px;
+  color: rgb(182, 68, 0);
+  margin-bottom: -0px;
+}
+
+.Accesories-Main-Content-2 .Accesories-Main-Content-2-IN {
+  padding-top: 30px;
+}
+
+.Accesories-Main-Content-2 .Accesories-Main-Content-2-IN .swiper .Slider-Product-1 .text h2 a {
+  font-size: 17px;
+  color: #1d1d1f;
+  font-weight: 600;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.Accesories-Main-Content-2 .Accesories-Main-Content-2-IN .swiper .Slider-Product-1 .Last-Para-in {
+  font-size: 14px;
+  color: #1d1d1f;
+  position: absolute;
+  bottom: 10px;
+  left: 62px;
+}
+
+.Accesories-Main-Content-2 .Accesories-Main-Content-2-IN {
+  padding-bottom: 30px;
+  width: 75%;
+  margin: auto;
+}
+
+.Accesories-Main-Content-2 .Accesories-Main-Content-2-IN .Slider-Product-1 .text h2 a:hover {
+  text-decoration: underline;
+  color: #0066CC;
+}
+
+.Accesories-Main-Content-3 .Accesories-Main-Content-Footer .Accesories-Main-Content-Footer-1 {
+  height: 221px;
+  width: 326px;
+  text-align: center;
+  padding: 30px 20px 20px 20px;
+}
+
+.Accesories-Main-Content-3 .Accesories-Main-Content-Footer .Accesories-Main-Content-Footer-1 h3 {
+  font-size: 19px;
+  color: #000000e0;
+  font-weight: 540;
+  padding-top: 7px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.Accesories-Main-Content-3 .Accesories-Main-Content-Footer .Accesories-Main-Content-Footer-1 p {
+  font-size: 14px;
+  color: #1d1d1f;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.Accesories-Main-Content-3 .Accesories-Main-Content-Footer .Accesories-Main-Content-Footer-1 a {
+  font-size: 14px;
+  color: #06c;
+  font-weight: 400;
+}
+
+.Accesories-Main-Content-3 .Accesories-Main-Content-Footer .Accesories-Main-Content-Footer-1 a i {
+  font-size: 10px;
+  color: #06c;
+}
+
+.Accesories-Main-Content-3 {
+  background-color: #f5f5f7;
+  margin-top: 25px;
+}
+
+.Accesories-Main-Content-3 .Accesories-Main-Content-Footer {
+  width: 70%;
+  display: flex;
+  margin: auto;
+
+}
+
+.Footer-link-country .Para-Country {
+  font-size: 12px;
+  color: rgb(0, 0, 0, 0.56);
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.Description-Main .Description-Main-1 .Description-Main-Text {
+  width: 82.9%;
+  margin: auto;
+  padding-top: 100px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.Description-Main .Description-Main-1 .Description-Main-Text .Text .Desc-Para {
+  font-size: 17px;
+  font-weight: 500;
+  color: #b64400;
+}
+
+.Description-Main .Description-Main-1 .Description-Main-Text .Text .Text-Head {
+  font-size: 32px;
+  font-weight: 540;
+  color: #1d1d1f;
+}
+
+.Description-Main .Description-Main-1 .Description-Main-Text .Text .Text-Main-1 {
+  margin-top: 40px;
+  padding-top: 30px;
+  border-top: 1px solid #d2d2d7;
+}
+
+.Description-Main .Description-Main-1 .Description-Main-Text .Text .Text-Main-1 a {
+  color: #0066CC;
+  font-size: 17px;
+}
+
+.Description-Main .Description-Main-1 .Description-Main-Text .Text .Text-Main-1 a i {
+  color: #0066CC;
+}
+
+.Description-Main .Description-Main-1 .Description-Main-Text .Text .Text-Main-1 .text-icon-1 {
+  font-size: 14px;
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.Description-Main .Description-Main-1 .Description-Main-Text .Text .Text-Main-1 .text-icon-1 .icon i {
+  font-size: 22px;
+}
+
+.Description-Main .Description-Main-1 .Description-Main-Text .Text .Text-Main-1 .text-icon-1 .text-icon p a {
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+.Description-Main .Description-Main-1 .Description-Main-Text .Text .Text-Main-1 .text-icon-1 .text-icon span {
+  color: #000000;
+  font-weight: 540;
+}
+
+.Description-Main .Description-Main-1 .Description-Main-Text .Text .Text-Main-1 .btn {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 330px;
+}
+
+.Description-Main .Description-Main-1 .Description-Main-Text .Text .Text-Main-1 .text-information h3 {
+  font-size: 14px;
+  color: #1d1d1f;
+  font-weight: 540;
+}
+
+.Description-Main .Description-Main-1 .Description-Main-Text .Text .Text-Main-1 .text-information p {
+  font-size: 14px;
+  color: #1d1d1f;
+}
+
+.Description-Main .Description-Main-1 .Description-Main-Text .Text .Text-Main-1 .text-information a {
+  font-size: 14px;
+}
+
+.Description-Main .Description-Main-1 .Description-Main-Text .Text .Text-Main-1 .b-1 {
+  border-bottom: 1px solid #d2d2d7;
+  padding-bottom: 30px;
+}
+
+.Description-Main .Description-Main-Content .Mac-Main-Section-6 .Mac-Main-Text h1 {
+  font-size: 21px;
+  text-align: center;
+}
+
+.Description-Main .Description-Main-Content .Mac-Main-Section-6 .Mac-Main-Section-6-Content {
+  background-color: transparent;
+  padding: 0px;
+  height: auto;
+}
+
+.Description-Main .Description-Main-Content .Mac-Main-Section-6 .Mac-Main-Section-6-Content .accordion {
+  position: relative;
+  width: 100%;
+  top: 0px;
+  border: 1px solid #d2d2d7;
+  border-left: none;
+  border-right: none;
+  /* margin-top: 120px; */
+}
+
+.Description-Main .Description-Main-Content .Mac-Main-Section-6 .Mac-Main-Section-6-Content .accordion-header button {
+  font-size: 32px;
+}
+
+.Description-Main .Description-Main-Content .Mac-Main-Section-6 .Mac-Main-Section-6-Content .accordion-body .Accordian-Main {
+  display: flex;
+  gap: 140px;
+
+
+}
+
+.Description-Main .Description-Main-Content .Mac-Main-Section-6 .Mac-Main-Section-6-Content .accordion-body .Accordian-Main h2 {
+  font-size: 24px;
+
+}
+
+.Description-Main .Description-Main-Content .Mac-Main-Section-6 .Mac-Main-Section-6-Content .accordion-body .Accordian-Main p {
+  font-size: 17px;
+  color: #1d1d1f;
+}
+
+.Description-Main .Description-Main-Content .Description-Main-Data .Description-Main-Section-7-text h1 {
+  font-size: 40px;
+  font-weight: 540;
+  color: #1d1d1f;
+  text-align: center;
+}
+
+.Description-Main .Description-Main-Content .Description-Main-Data .Description-Main-Section-7-Content .swiper .Desc_Product_1 {
+  height: 449px;
+  width: 309px;
+  text-align: center;
+  padding: 0px 20px 20px 20px;
+}
+
+.Description-Main .Description-Main-Content .Description-Main-Data .Description-Main-Section-7-Content .swiper .Desc_Product_1 .text {
+  padding: 45px 5px 5px 5px;
+}
+
+.Description-Main .Description-Main-Content .Description-Main-Data .Description-Main-Section-7-Content .swiper .Desc_Product_1 .text .Last-Para {
+  font-size: 12px;
+  height: 20px;
+  color: rgb(182, 68, 0);
+}
+
+.Description-Main .Description-Main-Content .Description-Main-Data .Description-Main-Section-7-Content .swiper .Desc_Product_1 .text h2 {
+  font-size: 17px;
+  color: #1d1d1f;
+  font-weight: 540;
+}
+
+.Description-Main .Description-Main-Content .Description-Main-Data .Description-Main-Section-7-Content .swiper .Desc_Product_1 .text h2 a {
+  color: #1d1d1f;
+}
+
+.Description-Main .Description-Main-Content .Description-Main-Data .Description-Main-Section-7-Content .swiper .Desc_Product_1:hover h2 a {
+  color: #06c;
+}
+
+.Description-Main .Description-Main-Content .Description-Main-Data .Description-Main-Section-7-Content {
+  width: 76%;
+  margin: 20px auto;
+}
+
+.Description-Main .Description-Main-Content .Description-Footer-1 .Footer-Section-9 .Footer-Section-9-1 .Footer-section-para p span {
+  position: relative;
+  top: -.5em;
+  font-size: .6em;
+}
+
+.Margin-Store {
+  position: relative;
+
+}
+
+.Bag-Page-Main .Bag-Page-Content .Bag-Page-Content-text h1 {
+  padding-top: 110px;
+  font-size: 40px;
+  color: #1d1d1f;
+}
+
+.Bag-Page-Main .Bag-Page-Content .Bag-Page-Content-text {
+  width: 74%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.Bag-Page-Main .Bag-Page-Content .Bag-Page-Content-text button {
+  padding: 6px 116px 6px 116px;
+  margin-top: 20px;
+}
+
+.Bag-Page-Main .Bag-Page-Content .Bag-Page-Content-Cart .Bag-Page-Content-Cart-product {
+  width: 74%;
+  margin: auto;
+  border-top: 1px solid #d2d2d7;
+  padding: 40px 0px 40px 0px;
+  display: flex;
+  /* align-items: center; */
+  /* flex-direction: ; */
+  position: relative;
+  bottom: 30px;
+}
+
+.Bag-Page-Main .Bag-Page-Content .Bag-Page-Content-Cart .Bag-Page-Content-Cart-product .text {
+  width: 80%;
+  margin-top: 16px;
+}
+
+.Bag-Page-Main .Bag-Page-Content .Bag-Page-Content-Cart .Bag-Page-Content-Cart-product .text .text-upper .text-1 h1 {
+  width: 70%;
+}
+
+.Bag-Page-Main .Bag-Page-Content .Bag-Page-Content-Cart .Bag-Page-Content-Cart-product .text .text-upper .text-1 h1 a {
+  font-size: 24px;
+  color: #1d1d1f;
+
+}
+
+.Bag-Page-Main .Bag-Page-Content .Bag-Page-Content-Cart .Bag-Page-Content-Cart-product .text .text-upper .text-1 p {
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.Bag-Page-Main .Bag-Page-Content .Bag-Page-Content-Cart .Bag-Page-Content-Cart-product .text .text-upper {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #d2d2d7;
+}
+
+.Bag-Page-Main .Bag-Page-Content .Bag-Page-Content-Cart .Bag-Page-Content-Cart-product .text .text-upper .text-2 {
+  margin-top: 16px;
+}
+
+.Bag-Page-Main .Bag-Page-Content .Bag-Page-Content-Cart .Bag-Page-Content-Cart-product .text .text-upper .text-3 {
+  margin-top: 8px;
+}
+
+.Bag-Page-Main .Bag-Page-Content .Bag-Page-Content-Cart .Bag-Page-Content-Cart-product .text .text-upper .text-3 a {
+  margin-left: 98px;
+}
+
+.Bag-Page-Main .Bag-Page-Content .Bag-Page-Content-Cart .Bag-Page-Content-Cart-product .text .text-upper .text-3 h2 {
+  color: #1d1d1f;
+  font-size: 24px;
+  padding-bottom: 30px;
+}
+
+.Bag-Page-Main .Bag-Page-Content .Bag-Page-Content-Cart .Bag-Page-Content-Cart-product .text .text-middle .icon-1 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 22px;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #d2d2d7;
+}
+
+.Bag-Page-Main .Bag-Page-Content .Bag-Page-Content-Cart .Bag-Page-Content-Cart-product .text .text-middle .icon-1 p {
+  font-size: 17px;
+  font-weight: 600;
+  color: #1d1d1f;
+}
+
+.Bag-Page-Main .Bag-Page-Content .Bag-Page-Content-Cart .Bag-Page-Content-Cart-product .text .text-middle .icon-1 p i {
+  border: 1px solid #1d1d1f;
+  border-radius: 50px;
+  padding: 2px;
+  font-size: 12px;
+  color: rgb(51, 51, 54);
+  margin-right: 6px;
+}
+
+.Bag-Page-Main .Bag-Page-Content .Bag-Page-Content-Cart .Bag-Page-Content-Cart-product .text .text-middle .icon-1 a {
+  font-size: 16px;
+}
+
+.Bag-Page-Main .Bag-Page-Content .Bag-Page-Content-Cart .Bag-Page-Content-Cart-product .text .text-last-para .text-icon-1 {
+  padding-top: 24px;
+  /* display: flex; */
+  justify-content: space-between;
+}
+
+.Bag-Page-Main .Bag-Page-Content .Bag-Page-Content-Cart .Bag-Content-Main-btn {
+  width: 73%;
+  margin: auto;
+  border-top: 1px solid #d2d2d7;
+  padding-top: 80px;
+}
+
+.Bag-Page-Main .Bag-Page-Content .Bag-Page-Content-Cart .Bag-Content-Main-btn .Bag-content-Main-btn .text-1 {
+
+  width: 75%;
+  position: relative;
+  right: -25%;
+  border-bottom: 1px solid #d2d2d7;
+}
+
+.Bag-Page-Main .Bag-Page-Content .Bag-Page-Content-Cart .Bag-Content-Main-btn .Bag-content-Main-btn .text-1 .text-1-1,
+.text-1-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Bag-Page-Main .Bag-Page-Content .Bag-Page-Content-Cart .Bag-Content-Main-btn .Bag-content-Main-btn {
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.Bag-Page-Main .Bag-Page-Content .Bag-Page-Content-Cart .Bag-Content-Main-btn .Bag-content-Main-btn .Text-2 {
+  width: 75%;
+  position: relative;
+  padding-top: 20px;
+  right: -25%;
+}
+
+.Bag-Page-Main .Bag-Page-Content .Bag-Page-Content-Cart .Bag-Content-Main-btn .Bag-content-Main-btn .Text-2 .text-2-3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Bag-Page-Main .Bag-Page-Content .Bag-Page-Content-Cart .Bag-Content-Main-btn .Bag-content-Main-btn .Text-2 .text-2-3 h3 {
+  font-size: 24px;
+  font-weight: 540;
+  color: #1d1d1f;
+}
+.Signup .Signup-Bag .Signup-Profile span  a{
+  margin-left: -3px;
+  color: #212529;
+}
+
+.Bag-Page-Main .Bag-Page-Content .Bag-Page-Content-Cart .Bag-Content-Main-btn .Bag-content-Main-btn .Text-2 .text-2-3 p {
+  font-size: 24px;
+  color: #1d1d1f;
+}
+
+.Bag-Page-Main .Bag-Page-Content .Bag-Page-Content-Cart .Bag-Content-Main-btn .Bag-content-Main-btn button {
+  padding: 14px 130px;
+  border-radius: 12px;
+  margin-top: 22px;
+  position: absolute;
+  margin-bottom: 20px;
+  right: 0%;
+}
+
+.Bag-Page-Content-Cart .Last-Para-Bag {
+  border: 1px solid #d2d2d7;
+  border-left: none;
+  border-right: none;
+}
+
+.Bag-Page-Content-Cart .Last-Para-Bag p {
+  width: 73%;
+  margin: auto;
+  font-size: 17px;
+  color: #1d1d1f;
+  padding: 24px 0px 14px 0px;
+}
+
+.Bag-Page-Content-Cart .Show-Data-Bag-Section .Show-Data-Bag-Section-content .Product-Bag-1 {
+  height: 510px;
+  width: 248px;
+  text-align: center;
+  position: relative;
+}
+
+.Bag-Page-Content-Cart .Show-Data-Bag-Section .Show-Data-Bag-Section-content .Product-Bag-1 .text {
+  height: 234px;
+  text-align: left;
+  position: relative;
+}
+
+.Bag-Page-Content-Cart .Show-Data-Bag-Section .Show-Data-Bag-Section-content .Product-Bag-1 .text .Last-Para {
+  font-size: 12px;
+  color: #b64400;
+}
+
+.Bag-Page-Content-Cart .Show-Data-Bag-Section .Show-Data-Bag-Section-content .Product-Bag-1 .text h2 {
+  font-size: 17px;
+  color: #1d1d1f;
+  line-height: 20px;
+  margin-top: -6px;
+  font-weight: 540;
+}
+
+.Bag-Page-Content-Cart .Show-Data-Bag-Section .Show-Data-Bag-Section-content .Product-Bag-1 .text h2 a {
+  color: #1d1d1f;
+}
+
+.Bag-Page-Content-Cart .Show-Data-Bag-Section .Show-Data-Bag-Section-content .Product-Bag-1 .text .Footer-Para {
+  font-size: 17px;
+  color: #1d1d1f;
+  margin-top: -1px;
+}
+
+.Bag-Page-Content-Cart .Show-Data-Bag-Section .Show-Data-Bag-Section-content .Product-Bag-1 button {
+  width: 248px;
+  /* margin: auto; */
+  padding: 15px 0px 15px 0px;
+  position: absolute;
+  top: 355px;
+  left: -10px;
+  border-radius: 12px;
+}
+
+.Bag-Page-Content-Cart .Show-Data-Bag-Section .Show-Data-Bag-Section-content {
+  width: 80%;
+  margin: auto;
+  position: relative;
+  left: 4%;
+}
+
+.Bag-Page-Content-Cart .Show-Data-Main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.Bag-Page-Content-Cart .Show-Data-Bag-Section-text h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #1d1d1f;
+  padding-top: 60px;
+  padding-bottom: 45px;
+}
+
+.Bag-Page-Content-Cart .product-Main-1 .Product-Main-1-Banner img {
+  height: 400px;
+  width: 980px;
+  position: relative;
+  margin: 40px auto;
+
+}.mediaimg{
+  opacity: 0;
+  display: none;
+}
+.one-bag{
+  opacity: 1;
+  display: block;
+}
+
+.Bag-Page-Content-Cart .product-Main-1 .Product-Main-1-Banner {
+  width: 75%;
+  position: relative;
+  margin: auto;
+}
+
+.Bag-Page-Content-Cart .product-Main-1 .text-banner-1 {
+  width: 300px;
+  text-align: center;
+  top: 190px;
+  position: absolute;
+  left: 255px;
+}
+
+.product-Main-1 {
+  position: relative;
+}
+
+.Bag-Page-Content-Cart .product-Main-1 .text-banner-1 h2 {
+  font-size: 32px;
+  color: #1d1d1f;
+}
+
+.Bag-Page-Content-Cart .product-Main-1 .text-banner-1 p {
+  font-size: 17px;
+  color: #1d1d1f;
+}
+
+.Bag-Page-Content-Cart .product-Main-1 .text-banner-1 .A-1 {
+  font-size: 17px;
+  color: #0066CC;
+}
+
+.Bag-Page-Content-Cart .product-Main-1 .text-banner-1 .A-1 i {
+  color: #0066CC;
+}
+
+.Bag-Page-Content-Cart .Bag-Footer-Main-1 .Bag-Footer-Main {
+  border-top: 1px solid #d2d2d7;
+
+}
+
+.Bag-Page-Content-Cart .Bag-Footer-Main-1 .Bag-Footer-Main .Main-1 {
+  width: 76%;
+  margin: 10px auto;
+  background-color: transparent;
+  padding: 0px;
+
+}
+
+.Bag-Page-Content-Cart .Bag-Footer-Main-1 .Bag-Footer-Main .accordion-header button {
+  background-color: transparent;
+  box-shadow: none;
+  font-size: 32px;
+  color: #1d1d1f;
+}
+
+.Bag-Page-Content-Cart .Bag-Footer-Main-1 .Bag-Footer-Main .Main-1 .accordion-body .Main-2 {
+  width: 100%;
+  margin-left: -20px;
+}
+
+.Bag-Page-Content-Cart .Bag-Footer-Main-1 .Bag-Footer-Main .Main-1 .accordion-body .Main-2 .accordion-header button {
+  font-size: 17px;
+  color: #1d1d1f;
+  border: 1px solid #d2d2d7;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+  font-weight: 550;
+}
+
+.Bag-Page-Content-Cart .Bag-Footer-Main-1 .Bag-Footer-Main .Main-1 .accordion-body .Main-2 .accordion-body {
+  font-size: 15px;
+  color: #1d1d1f;
+}
+
+.Bag-Page-Content-Cart .Bag-Footer-Main-1 .Bag-Footer-Main .Main-1 .accordion-body .Main-2 .accordion-body i {
+  font-size: 13px;
+  color: #0066CC;
+}
+
+.Navbar-media-Main {
+  text-align: left;
+  position: fixed;
+  width: 100%;
+  top: -0px;
+  height: 100vh;
+  z-index: 12901290129012901290;
+  background-color: rgb(250, 250, 252);
+  padding: 50px 30px 30px 50px;
+  color: #E8E8ED;
+}
+
+.Navbar-media-Main a {
+  color: rgb(0, 0, 0, .8);
+  font-weight: 600;
+  padding-top: 30px;
+}
+
+.Navbar-media-Main a h2 {
+  font-weight: 540;
+  padding-top: 7px;
+}
+
+.Navbar-media-Main a i {
+  color: black;
+  font-size: 22px;
+  position: absolute;
+  top: 15px;
+  right: 6%;
+}
+
+.Media-1 {
+  opacity: 0;
+  display: none;
+}
+
+.Media {
+  display: block;
+  opacity: 1;
+}
+.slidermedia{
+  opacity: 0;
+  display: none;
+}
+.Navs-Content-Main .Navs-Content-Main-1 .Navs-Content-Main-1-Text .tabs-padding{
+  padding-bottom: 46px;
+  margin-bottom: 10px;
+}
+.Descimage{
+  height: 571px;
+  width: 571px;
+  margin: auto;
+}
+.media-margin{
+  margin-top: 27px;
+}
