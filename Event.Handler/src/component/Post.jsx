@@ -4,18 +4,6 @@ import './post.css'
 
 const Post = ({title,body}) => {
 
-    const[data,setdata]=useState([])
-   async function Fetch(){
-    try{
-        let data = await  fetch("https://jsonplaceholder.typicode.com/posts").then((res)=>res.json());
-        setdata(data);
-    }
-    catch{
-    console.log(err);
-    }
-   }
-   Fetch();
-   console.log(data)
 
   return (
     <div>
