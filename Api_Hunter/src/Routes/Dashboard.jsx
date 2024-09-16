@@ -1,9 +1,10 @@
 import React, { useContext, useEffect, useState } from 'react'
-import { AuthContext } from '../component/AuthContext'
-import ProductTable from '../component/ProductTable';
 import axios from "axios"
+import Loader from '../Components/Loader';
+import { AuthContext } from '../Context/AuthContext';
+import ProductTable from "../Components/ProductsTable"
 
-const Dashboard = () => {
+function Dashboard() {
   const { Auth, Logout } = useContext(AuthContext)
   const [Dataproduct, setDataproduct] = useState([])
   const [loading, setloading] = useState(false)
@@ -18,16 +19,19 @@ const Dashboard = () => {
 
   return (
     <div>
-
-      <h2>Dashboard</h2>
-      <button className='Logout' onClick={() => Logout} data-testid="logout-btn">Log Out</button>
-      <h3 data-testid="user-token">Token :{Auth.token}</h3>
-      <div>{ loading ? <p>Loading...</p> : <ProductTable ProductData={Dataproduct} />}
-      </div>
+      <h3>Dashboard</h3>
       <div>
+        <button data-testid="logout-btn"  className="button-15"  onClick={() => Logout}>Logout</button>
+        <p>
+          Token:{Auth.token}
+          <b data-testid="user-token"></b>
+        </p>
+      </div>
+      <div style={{ display: "flex", justifyContent: "center" }}>
+      { loading ? <Loader/> : <ProductTable Data={Dataproduct} />}
       </div>
     </div>
-  )
+  );
 }
 
-export default Dashboard
+export default Dashboard;

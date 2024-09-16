@@ -1,10 +1,11 @@
 import React from 'react'
 import Home from './Home'
-import Dashboard from './Dashboard'
 import { Route, Routes } from 'react-router-dom';
-import Login from './Login'
-import PrivateRoute from '../component/PrivateRoute'
-import SingleProductPage from './SingleProductPage'
+import Dashboard from './Dashboard';
+import SingleProductPage from './SingleProductPage';
+import Login from "./Login"
+import PrivateRoute from "../Components/PrivateRoute"
+
 const AllRoutes = () => {
   return (
         <Routes>
