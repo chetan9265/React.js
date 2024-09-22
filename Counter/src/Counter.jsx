@@ -2,16 +2,6 @@ import { useState } from "react";
 
 function Counter() {
   const [COUNT, setCOUNT] = useState(1);
-
-
-
-  // function isprime(COUNT){
-  //   if(COUNT <=1) return false;
-  //   for(let i=2; i<=Math.sqrt(COUNT); i++){
-  //     if(COUNT % i === 0) return false;
-  //   }
-  //   return true;
-  // }
   var factor=0;
 
   function checkprime(){
